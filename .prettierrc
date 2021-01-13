@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": ["*.html", "legacy/**/*.js"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "printWidth": 100
+      }
+    }
+  ]
+}
