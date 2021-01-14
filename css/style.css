@@ -1,3 +1,8 @@
+/* 
+This file is organized pretty much as the page flows 
+You can find the majpor sections by searching on |||
+*/
+
 @font-face {
   font-family: "ibm3270";
   src: url("fonts/3270-webfont.woff2") format("woff2"),
@@ -6,7 +11,7 @@
   font-style: normal;
 }
 
-/* OVERALL STYLING */
+/* ||| OVERALL STYLING ------------------------------- */
 
 * {
   box-sizing: border-box;
@@ -59,7 +64,7 @@ script {
   font-weight: 300;
 }
 
-/* HEADER */
+/* ||| HEADER ------------------------------- */
 
 .header {
   grid-area: h;
@@ -169,7 +174,7 @@ script {
   margin: 0 0.5rem;
 }
 
-/* OVERALL PAGE TITLE */
+/* ||| OVERALL PAGE TITLE ------------------------------- */
 
 .page-title {
   grid-area: p;
@@ -179,7 +184,7 @@ script {
   font-size: 2rem;
 }
 
-/* MAIN CONTENT */
+/* ||| MAIN CONTENT ------------------------------- */
 
 /* Scrolling marquee above main content*/
 
@@ -351,7 +356,7 @@ rss-title a {
   text-align: left;
 }
 
-/* SIDEBAR */
+/* ||| SIDEBAR ------------------------------- */
 
 .aside {
   grid-area: a;
@@ -399,7 +404,7 @@ rss-title a {
   font-size: 1.3rem;
 }
 
-/* BAND CONDITIONS */
+/* ||| BAND CONDITIONS ------------------------------- */
 
 .bcond {
   display: flex;
@@ -430,7 +435,7 @@ rss-title a {
   padding: 10px;
 }
 
-/* FOOTER */
+/* ||| FOOTER ------------------------------- */
 
 .footer {
   grid-area: f;
