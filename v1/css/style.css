@@ -26,21 +26,15 @@ body {
   background-color: black;
   display: grid;
   grid-gap: 8px;
-  grid-template-columns: repeat(16, minmax(90, 100));
-  grid-template-rows: 260px 100px auto auto;
+  /* grid-template-columns: repeat(16, 1fr); */
+  grid-template-columns: repeat(16, minmax(90, 120));
+  grid-template-rows: 310px 60px 50px auto auto;
   grid-template-areas:
-    "h h h h h h h h h h h h h h"
-    ". . t t t t t t t t t t . ."
-    ". . l l l l l l r r r r . ."
-    "f f f f f f f f f f f f f f";
-}
-
-.fas,
-.fab {
-  border: none;
-  color: #dbdbdb;
-  font-size: 1.3rem;
-  margin-right: 10px;
+    "h h h h h h h h h h h h h h h h"
+    "q q q q q q q q q q q q q q q q"
+    ". p p p p p p p p p p p p p p ."
+    ". a a a l l l l l r r r r r b ."
+    "f f f f f f f f f f f f f f f f";
 }
 
 h1,
@@ -53,22 +47,6 @@ h3 {
   text-align: left;
   margin: 0;
   padding: 0;
-}
-
-h1 {
-  font-size: 2.8rem;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-size: 1.2rem;
 }
 
 a {
@@ -92,90 +70,56 @@ script {
   grid-area: h;
   background: url("../img/globalmap.png") no-repeat center center/cover;
   border-radius: 5px;
-  margin: 5px 15px 0px 15px;
+  margin: 5px 5px 0px 5px;
 }
 
 /* Navbar in header */
 
-.header-top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.scars-icon img {
-  vertical-align: middle;
-  height: 4rem;
-  padding: 0 1.2rem;
-  margin: 0;
-}
-
-.scars-icon ul li a:hover {
-  background: none;
-  border-radius: 5px;
-}
-
 .nav {
-  height: 5rem;
+  height: 50px;
   display: flex;
-  align-items: center;
   top: 0;
+  justify-content: space-between;
 }
 
 .nav ul {
   display: flex;
   align-items: center;
   list-style: none;
-  justify-content: space-between;
 }
 
 .nav ul li {
-  font-size: 1.4rem;
+  font-family: ibm3270, monospace;
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .nav ul li a {
-  padding: 0.5rem 0.6rem;
-  margin: 0 0.4rem;
-  color: #d3d3d3;
-  height: 100%;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
 }
 
 .nav ul li a:hover {
   background: #333;
-  color: white;
   border-radius: 5px;
 }
 
-.clocks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  padding: 0.5rem 1.5rem;
-}
+/* Title and SubTitle in header */
 
-/* Meatball, Title and SubTitle in header */
-
-.header-middle {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  padding-top: 1.3rem;
-}
-
-.title {
+#title .title {
+  padding-top: 3rem;
   font-family: ibm3270, monospace;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 1;
   color: white;
   text-align: center;
 }
 
-.subtitle {
+#title .subtitle {
   font-family: ibm3270, monospace;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 1;
   color: white;
   text-align: center;
@@ -185,14 +129,70 @@ script {
   padding-bottom: 0;
 }
 
+/* Header Bottom Row */
+
+.header-bottom {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Clocks in header bottom row */
+
+.clock {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  color: yellow;
+}
+
+.clock h2 {
+  font-size: 1.9rem;
+}
+
+/* Medallion icons in header bottom row */
+
+.medallions {
+  padding: 15px 0 0 0;
+  bottom: 0;
+}
+
+.medallions ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.medallions ul li a {
+  padding: 0.25rem;
+  margin: 0 0.5rem;
+}
+
 /* ||| MARQUEE - Scrolling marquee above main content */
 
 .marquee {
-  margin-top: 1rem;
+  grid-area: q;
   display: flex;
   height: 50px;
   overflow: hidden;
   position: relative;
+  background-color: #444;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-image {
+  height: 30px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -205,6 +205,7 @@ script {
 
 .marquee p {
   font-size: 1.2rem;
+  font-weight: bold;
   color: #fff;
   position: absolute;
   width: 100%;
@@ -212,16 +213,14 @@ script {
   margin: 0;
   line-height: 50px;
   text-align: center;
-  align-content: center;
-  justify-content: center;
 
   /* Starting position */
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
   /* Apply animation to this element */
-  -moz-animation: marquee 32s linear infinite;
-  -webkit-animation: marquee 32s linear infinite;
+  -moz-animation: marquee 30s linear infinite;
+  -webkit-animation: marquee 30s linear infinite;
   animation: marquee 32s linear infinite;
 }
 
@@ -258,70 +257,11 @@ script {
 /* ||| OVERALL PAGE TITLE ------------------------------- */
 
 .page-title {
-  grid-area: t;
+  grid-area: p;
   display: flex;
-  justify-content: space-between;
-  align-content: flex-end;
-  background-color: black;
-}
-
-.page-title .main-heading {
-  width: 550px;
-  margin-top: 2.5rem;
-}
-
-.page-title .main-heading h1 {
-  color: #aaa;
-}
-
-.page-title .main-heading i.fas {
-  border: none;
-  color: #dbdbdb;
-  font-size: 2.5rem;
-  margin-right: 30px;
-}
-
-.heading-buttons {
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-
-.newhambtn {
-  width: 230px;
-  height: 42px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #a2ec76;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 5px;
-  color: #0d0e0d;
-  font-weight: bold;
-  opacity: 0.7;
-}
-
-a.newhambtn:hover {
-  background-color: #dcf7cd;
-}
-
-.condbtn {
-  width: 230px;
-  height: 42px;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: #333;
-  border-radius: 5px;
-  margin: 5px;
-  padding: 5px;
-  color: white;
-  font-weight: bold;
-}
-
-a.condbtn:hover {
-  background-color: #888;
+  background-color: black;
+  font-size: 2rem;
 }
 
 /* ||| MAIN CONTENT ------------------------------- */
@@ -442,6 +382,7 @@ rss-title a {
 .aside h2 {
   padding: 12px 0 10px 0;
   text-align: center;
+  font-size: 2rem;
   border-bottom: #dbdbdb 1px solid;
 }
 
@@ -465,6 +406,18 @@ rss-title a {
   border-radius: 3px;
 }
 
+.fas {
+  border: none;
+  color: #dbdbdb;
+  font-size: 1.3rem;
+}
+
+.fab {
+  border: none;
+  color: #dbdbdb;
+  font-size: 1.3rem;
+}
+
 /* ||| BAND CONDITIONS ------------------------------- */
 
 .bcond {
@@ -482,13 +435,14 @@ rss-title a {
   padding: 12px 0 10px 0;
   margin: 0 0 15px 0;
   text-align: center;
+  font-size: 2rem;
   border-bottom: #dbdbdb 1px solid;
 }
 
 .bcond h3 {
   padding: 20px 0 0 0;
   text-align: center;
-  border-bottom: #dbdbdb 1px solid;
+  font-size: 1.2rem;
 }
 
 .bcond a {
@@ -500,98 +454,15 @@ rss-title a {
 .footer {
   grid-area: f;
   display: flex;
-  justify-content: space-between;
-  padding: 1rem;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+  align-items: center;
 }
 
 .footer p {
-  padding: 0 0 0.5rem 0;
+  padding: 0;
   margin: 0;
   font-size: 0.9rem;
   color: #fff;
-}
-
-.left-footer-section {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: black;
-}
-
-.paybtn {
-  width: 180px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: goldenrod;
-  border: 2px solid #382a05;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 20px 0px;
-  color: #382a05;
-  font-weight: bold;
-}
-
-a.paybtn:hover {
-  background-color: #f8c84e;
-}
-
-.center-footer-section {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  padding: 20px;
-  background-color: black;
-}
-
-/* Medallion icons */
-
-.medallions {
-  margin: 0;
-  padding: 0;
-}
-
-.medallions ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 16rem;
-  list-style: none;
-}
-
-.medallions ul li a {
-  padding: 0.25rem;
-  margin: 0 0.5rem;
-}
-
-.right-footer-section {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  padding: 10px;
-  background-color: black;
-}
-
-.social-media-icons {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: flex-start;
-  padding-bottom: 2rem;
-}
-
-.social-media-icons a img {
-  padding: 6px;
-  align-self: center;
-  border-radius: 5px;
 }
