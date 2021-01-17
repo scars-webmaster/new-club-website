@@ -271,9 +271,9 @@ script {
 
 .header .marquee p,
 .header .marquee a {
-  color: #c3d6fa;
-  font-weight: 400;
-  font-size: 1.6rem;
+  color: #cbdbf8;
+  font-weight: 300;
+  font-size: 1.4rem;
 }
 
 /* Move it (define the animation) */
