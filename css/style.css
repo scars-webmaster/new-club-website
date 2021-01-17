@@ -132,14 +132,16 @@ script {
 
 .aside {
   position: absolute;
-  width: 240px;
-  top: 60px;
-  left: 50px;
+  top: 65px;
+  left: 55px;
   background-color: #444;
   border-radius: 0px;
-  padding: 12px;
+  padding: 5px;
   z-index: 20;
   visibility: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .aside ul {
@@ -147,39 +149,24 @@ script {
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  margin: 0;
+  margin: 2rem;
   padding: 0;
-}
-
-.aside ul li {
-  margin-left: 2.2rem;
-  padding: 0;
-}
-
-.aside h2 {
-  padding: 12px 0 10px 0;
-  text-align: center;
-  border-bottom: #dbdbdb 1px solid;
-}
-
-.aside ul {
-  padding: 10px 0;
-}
-
-.aside ul li {
-  font-size: 1rem;
-  line-height: 2.5;
-}
-
-.aside ul li a {
-  padding: 8px;
-  margin-left: 5px;
 }
 
 .aside ul li a:hover {
-  background-color: #111;
+  background-color: #333;
   color: #fff;
-  border-radius: 3px;
+  border-radius: 2px;
+}
+
+.aside li.menu-heading {
+  color: #9eb9ec;
+  font-weight: bold;
+}
+
+.aside li:not(.menu-heading) {
+  padding: 6px;
+  font-size: 1rem;
 }
 
 .clocks {
@@ -214,7 +201,8 @@ script {
 /* Meatball, Title and SubTitle in header */
 
 .header-middle {
-  margin-top: -3rem;
+  margin-top: -4rem;
+  margin-left: -2rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -224,7 +212,7 @@ script {
 .scars-icon img {
   vertical-align: middle;
   height: 4rem;
-  padding: 0 1.2rem;
+  padding: 0 1.2rem 0 0;
   margin: 0;
 }
 
@@ -263,23 +251,13 @@ script {
   justify-content: center;
 }
 
-.marquee p a {
-  color: #fff;
-  align-items: center;
-  justify-content: center;
-}
-
 .marquee p {
-  font-size: 1.2rem;
-  color: #fff;
   position: absolute;
   width: 100%;
   height: 100%;
   margin: 0;
   line-height: 50px;
   text-align: center;
-  align-content: center;
-  justify-content: center;
 
   /* Starting position */
   -moz-transform: translateX(100%);
@@ -289,6 +267,13 @@ script {
   -moz-animation: marquee 32s linear infinite;
   -webkit-animation: marquee 32s linear infinite;
   animation: marquee 32s linear infinite;
+}
+
+.header .marquee p,
+.header .marquee a {
+  color: #c3d6fa;
+  font-weight: 400;
+  font-size: 1.6rem;
 }
 
 /* Move it (define the animation) */
@@ -339,9 +324,6 @@ script {
   margin: 0px 15px 0px 15px;
 }
 
-.main-heading {
-}
-
 .main-body-title .main-heading h1 {
   color: #aaa;
   font-weight: normal;
@@ -352,12 +334,6 @@ script {
   color: #dbdbdb;
   font-size: 2.5rem;
   margin-right: 30px;
-}
-
-.other-content {
-}
-
-.heading-buttons {
 }
 
 .newhambtn {
@@ -371,6 +347,7 @@ script {
   margin: 5px 0;
   padding: 5px;
   color: #0d0e0d;
+  font-size: 1rem;
   font-weight: bold;
   opacity: 0.7;
 }
@@ -392,6 +369,7 @@ a.newhambtn:hover {
   margin: 5px 0;
   padding: 5px;
   color: #020257;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -409,16 +387,17 @@ div.bcond:hover .bcond-info {
 
 .bcond-info {
   position: absolute;
-  right: 20rem;
-  top: 16rem;
+  left: 22.5rem;
+  top: 25rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: black;
   background-size: 100vh 100vw;
-  box-shadow: 20px 20px 10px #555;
+  /* box-shadow: 20px 20px 10px #555; */
+  box-shadow: 10px 10px 20px 10px #888;
   border: 1px solid #444;
-  border-radius: 0px;
+  border-radius: 15px;
   color: #ccc;
   margin: 0.5rem;
   padding: 0.5rem;
