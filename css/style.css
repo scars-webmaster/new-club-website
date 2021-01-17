@@ -24,15 +24,6 @@ body {
   font-weight: 300;
   line-height: 1.6;
   background-color: black;
-  display: grid;
-  grid-gap: 8px;
-  grid-template-columns: repeat(16, minmax(90, 100));
-  grid-template-rows: 340px 100px auto 300px;
-  grid-template-areas:
-    "h h h h h h h h h h h h h h"
-    ". . t t t t t t t t t t . ."
-    ". . m m m m m m m m m m . ."
-    "f f f f f f f f f f f f f f";
 }
 
 .fas,
@@ -89,9 +80,8 @@ script {
 /* ||| HEADER ------------------------------- */
 
 .header {
-  grid-area: h;
   background: url("../img/globalmap.png") no-repeat center center/cover;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 5px 15px 0px 15px;
 }
 
@@ -130,7 +120,7 @@ script {
 .nav a:hover {
   background: #333;
   color: white;
-  border-radius: 5px;
+  border-radius: 0px;
   transition: all 0.4s ease;
 }
 
@@ -146,7 +136,7 @@ script {
   top: 60px;
   left: 50px;
   background-color: #444;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 12px;
   z-index: 20;
   visibility: hidden;
@@ -206,7 +196,7 @@ script {
   justify-content: space-between;
   padding: 0.5rem;
   background-color: #333;
-  border-radius: 5px;
+  border-radius: 0px;
   opacity: 0.7;
   margin: 0.3rem;
 }
@@ -224,6 +214,7 @@ script {
 /* Meatball, Title and SubTitle in header */
 
 .header-middle {
+  margin-top: -3rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -239,7 +230,7 @@ script {
 
 .scars-icon ul li a:hover {
   background: none;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .title {
@@ -258,10 +249,6 @@ script {
   line-height: 1;
   color: white;
   text-align: center;
-}
-
-#title p {
-  padding-bottom: 0;
 }
 
 /* ||| MARQUEE - Scrolling marquee above main content */
@@ -334,30 +321,33 @@ script {
   }
 }
 
+/* ||| MAIN CONTENT - page title and main body ------------------------------- */
+
+.main {
+  margin: auto;
+  max-width: 1220px;
+  display: flex;
+  flex-direction: column;
+}
+
 /* ||| OVERALL PAGE TITLE ------------------------------- */
 
-.page-title {
-  position: relative;
-  max-width: 1220px;
-  grid-area: t;
+.main-body-title {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  align-items: flex-end;
+  margin: 0px 15px 0px 15px;
 }
 
-.page-title .main-heading {
-  max-width: 900;
-  width: auto;
-  align-self: flex-start;
-  margin: 3rem 0 0 0;
+.main-heading {
 }
 
-.page-title .main-heading h1 {
+.main-body-title .main-heading h1 {
   color: #aaa;
   font-weight: normal;
 }
 
-.page-title .main-heading i.fas {
+.main-body-title .main-heading i.fas {
   border: none;
   color: #dbdbdb;
   font-size: 2.5rem;
@@ -365,13 +355,9 @@ script {
 }
 
 .other-content {
-  width: 240px;
 }
 
 .heading-buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
 }
 
 .newhambtn {
@@ -381,7 +367,7 @@ script {
   align-items: center;
   justify-content: space-around;
   background-color: orange;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 5px 0;
   padding: 5px;
   color: #0d0e0d;
@@ -402,7 +388,7 @@ a.newhambtn:hover {
   align-items: center;
   justify-content: center;
   background-color: cornflowerblue;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 5px 0;
   padding: 5px;
   color: #020257;
@@ -423,14 +409,16 @@ div.bcond:hover .bcond-info {
 
 .bcond-info {
   position: absolute;
-  left: 1rem;
-  top: 120px;
-  opacity: 0.95;
+  right: 20rem;
+  top: 16rem;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background-color: black;
-  border-radius: 5px;
+  background-size: 100vh 100vw;
+  box-shadow: 20px 20px 10px #555;
+  border: 1px solid #444;
+  border-radius: 0px;
   color: #ccc;
   margin: 0.5rem;
   padding: 0.5rem;
@@ -481,38 +469,30 @@ div.bcond:hover .bcond-info {
   align-items: center;
 }
 
-/* ||| MAIN CONTENT ------------------------------- */
+/* ||| MAIN BODY ------------------------------- */
 
-.main {
-  max-width: 1220px;
-  grid-area: m;
+.main-body {
+  margin: auto;
   display: flex;
-  justify-content: center;
+  margin: 0px 15px 0px 15px;
 }
 
 .lp-main-left {
-  height: auto;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: #cfcfcf;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 20px;
-  margin: 0 20px 0 0;
+  margin: 0 15px 0 0;
   font-family: "Roboto", sans-serif;
   color: black;
 }
 
 .lp-main-right {
-  height: auto;
   max-width: 320px;
-  align-self: flex-end;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #cfcfcf;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 20px;
   font-family: "Roboto", sans-serif;
   color: black;
@@ -605,13 +585,12 @@ rss-title a {
 /* ||| FOOTER ------------------------------- */
 
 .footer {
-  grid-area: f;
   display: flex;
   justify-content: space-between;
-  margin: 1.5rem 2rem;
+  margin: 15px 15px 0px 15px;
   padding: 0.5rem;
   background-color: #222;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .footer p {
@@ -625,7 +604,7 @@ rss-title a {
   width: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
   padding: 20px;
@@ -638,7 +617,7 @@ rss-title a {
   justify-content: center;
   background-color: goldenrod;
   border: 2px solid #382a05;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 5px;
   margin: 20px 0px;
   color: #382a05;
@@ -653,7 +632,7 @@ a.paybtn:hover {
   width: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
   padding: 20px;
@@ -694,11 +673,28 @@ a.paybtn:hover {
   align-items: center;
   align-content: center;
   justify-content: flex-start;
-  padding-bottom: 2rem;
 }
 
 .social-media-icons a img {
   padding: 6px;
   align-self: center;
-  border-radius: 5px;
+  border-radius: 0px;
+}
+
+.donatebtn {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+  border: 2px solid #382a05;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 20px 0px;
+  color: #382a05;
+  font-weight: bold;
+}
+
+a.donatebtn:hover {
+  background-color: #f8c84e;
 }
