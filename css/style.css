@@ -124,7 +124,7 @@ script {
   transition: all 0.4s ease;
 }
 
-.nav li:hover .scars-menu {
+.nav ul li:hover .scars-menu {
   visibility: visible;
 }
 
@@ -138,10 +138,10 @@ script {
   border-radius: 0px;
   padding: 5px;
   z-index: 20;
-  visibility: hidden;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  visibility: hidden;
 }
 
 .scars-menu ul {
@@ -189,6 +189,12 @@ script {
   margin: 8px 3px 8px 0;
   padding: 4px;
   background-color: white;
+  border: none;
+}
+
+.searchbox input[type="submit"] {
+  font-size: 1.2rem;
+  background: none;
   border: none;
 }
 
