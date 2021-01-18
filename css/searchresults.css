@@ -52,6 +52,9 @@ ul {
 
 .header {
   height: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   background: black;
   border-radius: 0px;
   margin: 5px 15px 0px 15px;
@@ -62,6 +65,7 @@ ul {
 .header-middle {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .scars-icon img {
@@ -110,6 +114,15 @@ ul {
 .searchresults-content a {
   text-decoration: none;
   color: black;
+}
+
+.searchresults-content .search-headline {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.searchresults-content .search-line {
+  visibility: hidden;
 }
 
 /* ||| FOOTER ------------------------------- */
