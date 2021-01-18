@@ -101,6 +101,7 @@ ul {
 .main {
   margin: auto;
   max-width: 1220px;
+  font-size: 2rem;
 }
 
 .searchresults-content {
@@ -111,9 +112,13 @@ ul {
   color: black;
 }
 
+.searchresultscontent [class^="start-"] {
+  font-size: 1.2rem;
+}
+
 .searchresults-content a {
   text-decoration: none;
-  color: black;
+  color: #fa7202;
 }
 
 .searchresults-content .search-headline {
