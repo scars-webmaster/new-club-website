@@ -101,24 +101,29 @@ ul {
 .main {
   margin: auto;
   max-width: 1220px;
-  font-size: 2rem;
+  padding: 20px;
+  margin: 20px;
 }
 
 .searchresults-content {
   background-color: #cfcfcf;
   border-radius: 0px;
-  padding: 20px;
-  margin: 15px;
-  color: black;
-}
-
-.searchresultscontent [class^="start-"] {
-  font-size: 1.2rem;
 }
 
 .searchresults-content a {
   text-decoration: none;
-  color: #fa7202;
+  color: #1a025c;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.searchresults-content i {
+  visibility: hidden;
+}
+
+.searchresults-content font {
+  font-size: 1.5rem;
+  color: black;
 }
 
 .searchresults-content .search-headline {
