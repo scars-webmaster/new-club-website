@@ -14,7 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+
     <title>Silver Comet ARS</title>
   </head>
 
@@ -68,7 +70,30 @@
           </ul>
         </div>
 
-        <div class="clocks">
+        <div class="header-top-right">
+          <!-- start of freefind search box html -->
+          <div class="searchbox">
+            <form
+              action="https://search.freefind.com/find.html"
+              method="get"
+              accept-charset="utf-8"
+              target="_self"
+            >
+              <input type="hidden" name="si" value="95886530" />
+              <input type="hidden" name="pid" value="r" />
+              <input type="hidden" name="n" value="0" />
+              <input type="hidden" name="_charset_" value="" />
+              <input type="hidden" name="bcd" value="&#247;" />
+              <input type="text" name="query" size="18" placeholder="search" />
+              <input
+                type="submit"
+                value="&#xf002;"
+                class="fas fa-search"
+                style="font-size: 1.2rem; background: none; border: none"
+              />
+            </form>
+          </div>
+          <!-- end of freefind search box html -->
           <div class="clock">
             <div class="clock-label">
               <p>Local</p>
@@ -241,26 +266,12 @@
           <div class="news-feeds">
             <script
               language="JavaScript"
-              src="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=10&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews"
+              src="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=5&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews"
               type="text/javascript"
             ></script>
-
             <noscript>
               <a
-                href="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=10&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews&amp;html=y"
-                >View RSS feed</a
-              >
-            </noscript>
-
-            <script
-              language="JavaScript"
-              src="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=https%3A%2F%2Fwww.iaru.org%2Ffeed%2F&amp;num=2&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews"
-              type="text/javascript"
-            ></script>
-
-            <noscript>
-              <a
-                href="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=https%3A%2F%2Fwww.iaru.org%2Ffeed%2F&amp;num=2&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews&amp;html=y"
+                href="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=5&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews&amp;html=y"
                 >View RSS feed</a
               >
             </noscript>
@@ -342,66 +353,6 @@
         >
       </div>
     </div>
-
-    <!-- Scripts -->
-
-    <!-- Script to get time -->
-    <script>
-      function addZero(i) {
-        if (i < 10) {
-          i = "0" + i;
-        }
-        return i;
-      }
-
-      function time() {
-        var utcDate = document.getElementById("utcDate");
-        var utcTime = document.getElementById("utcTime");
-        var localDate = document.getElementById("localDate");
-        var localTime = document.getElementById("localTime");
-
-        var weekday = new Array(7);
-        weekday[0] = "Sun";
-        weekday[1] = "Mon";
-        weekday[2] = "Tue";
-        weekday[3] = "Wed";
-        weekday[4] = "Thu";
-        weekday[5] = "Fri";
-        weekday[6] = "Sat";
-
-        var month = new Array(12);
-        month[0] = "Jan";
-        month[1] = "Feb";
-        month[2] = "Mar";
-        month[3] = "Apr";
-        month[4] = "May";
-        month[5] = "Jun";
-        month[6] = "Jul";
-        month[7] = "Aug";
-        month[8] = "Sep";
-        month[9] = "Oct";
-        month[10] = "Nov";
-        month[11] = "Dec";
-
-        var d = new Date();
-        var uw = weekday[d.getUTCDay()];
-        var lw = weekday[d.getDay()];
-        var um = month[d.getUTCMonth()];
-        var lm = month[d.getMonth()];
-        var ud = d.getUTCDate();
-        var ld = d.getDate();
-        var uh = addZero(d.getUTCHours());
-        var lh = addZero(d.getHours());
-        var m = addZero(d.getUTCMinutes());
-        var s = addZero(d.getUTCSeconds());
-        utcDate.innerHTML = uw + " " + um + " " + ud;
-        utcTime.innerHTML = uh + ":" + m + ":" + s;
-        localDate.innerHTML = lw + " " + lm + " " + ld;
-        localTime.innerHTML = lh + ":" + m + ":" + s;
-        animate = setTimeout(time, 1000);
-      }
-
-      window.onload = time;
-    </script>
+    <script src="src/scripts.js"></script>
   </body>
 </html>

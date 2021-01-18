@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  background-color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  line-height: 1;
+  color: white;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ||| HEADER ------------------------------- */
+
+.header {
+  background: black;
+  border-radius: 0px;
+  margin: 5px 15px 0px 15px;
+}
+
+/* Meatball, Title and SubTitle in header */
+
+.header-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.scars-icon img {
+  vertical-align: middle;
+  height: 4rem;
+  padding: 0 1.2rem 0 0;
+  margin: 0;
+}
+
+.scars-icon ul li a:hover {
+  background: none;
+  border-radius: 0px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+/* ||| MAIN CONTENT - page title and main body ------------------------------- */
+
+.main {
+  margin: auto;
+  max-width: 1220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px 15px 0px 15px;
+}
+
+.main-body-title .main-heading h1 {
+  color: #aaa;
+  font-weight: normal;
+}
+
+.main-body {
+  margin: auto;
+  display: flex;
+  margin: 0px 15px 0px 15px;
+}
+
+.lp-main-left {
+  background-color: #cfcfcf;
+  border-radius: 0px;
+  padding: 20px;
+  margin: 0 15px 0 0;
+  color: black;
+}
+
+/* ||| FOOTER ------------------------------- */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px 0px 15px;
+  padding: 0.5rem;
+  background-color: #222;
+  border-radius: 0px;
+}
+
+.footer p {
+  padding: 0 0 0.5rem 0;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.left-footer-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.paybtn {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+  border: 2px solid #382a05;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 20px 0px;
+  color: #382a05;
+  font-weight: bold;
+}
+
+a.paybtn:hover {
+  background-color: #f8c84e;
+}
+
+.center-footer-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Medallion icons */
+
+.medallions {
+  margin: 0;
+  padding: 0;
+}
+
+.medallions ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20rem;
+  list-style: none;
+}
+
+.medallions ul li a {
+  padding: 0.25rem;
+  margin: 0 0.5rem;
+}
+
+.right-footer-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: flex-end;
+  padding: 20px 40px 20px 20px;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.social-media-icons a img {
+  padding: 6px;
+  align-self: center;
+  border-radius: 0px;
+}
+
+.donatebtn {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+  border: 2px solid #382a05;
+  border-radius: 0px;
+  padding: 5px;
+  margin: 20px 0px;
+  color: #382a05;
+  font-weight: bold;
+}
+
+a.donatebtn:hover {
+  background-color: #f8c84e;
+}
