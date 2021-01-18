@@ -51,6 +51,7 @@ ul {
 /* ||| HEADER ------------------------------- */
 
 .header {
+  height: 300px;
   background: black;
   border-radius: 0px;
   margin: 5px 15px 0px 15px;
@@ -70,7 +71,7 @@ ul {
   margin: 0;
 }
 
-.scars-icon ul li a:hover {
+.scars-icon a:hover {
   background: none;
   border-radius: 0px;
 }
@@ -96,20 +97,6 @@ ul {
 .main {
   margin: auto;
   max-width: 1220px;
-  display: flex;
-  flex-direction: column;
-}
-
-.main-body-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 0px 15px 0px 15px;
-}
-
-.main-body-title .main-heading h1 {
-  color: #aaa;
-  font-weight: normal;
 }
 
 .main-body {
@@ -118,11 +105,16 @@ ul {
   margin: 0px 15px 0px 15px;
 }
 
-.lp-main-left {
+.searchresults-content {
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px;
   margin: 0 15px 0 0;
+  color: black;
+}
+
+.searchresults-content a {
+  text-decoration: none;
   color: black;
 }
 
