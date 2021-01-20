@@ -236,7 +236,7 @@ script {
   border-radius: 0px;
 }
 
-.header-middle .title {
+.header-title .club-title {
   font-family: ibm3270, monospace;
   font-weight: bold;
   font-size: 3.5rem;
@@ -245,7 +245,7 @@ script {
   text-align: center;
 }
 
-.header-middle .subtitle {
+.header-title .sub-title {
   font-family: ibm3270, monospace;
   font-weight: bold;
   font-size: 2rem;

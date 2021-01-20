@@ -21,14 +21,13 @@
     margin: 0;
   }
 
-  .header-middle .title,
-  p.title {
+  .header-title .club-title {
     font-size: 2rem;
     margin: 0;
   }
 
-  .header-middle .sub-title {
-    font-size: 1.2rem;
+  .header-title .sub-title {
+    font-size: 1.6rem;
     font-weight: normal;
   }
 
@@ -46,7 +45,7 @@
 
   .main-body-title .main-heading h1 {
     color: #ccc;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin: 0;
     padding: 10px 0;
@@ -94,6 +93,7 @@
   .center-footer-section {
     width: 100%;
     padding: 0;
+    text-align: center;
   }
 
   /* Medallion icons */
@@ -104,9 +104,6 @@
   }
 
   .medallions ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     width: 100%;
     list-style: none;
     margin: 0;
@@ -114,8 +111,8 @@
   }
 
   .medallions ul li a {
-    padding: 0.25rem;
-    margin: 0 0.5rem;
+    padding: 0rem;
+    margin: 0 7px;
   }
 
   .right-footer-section {
