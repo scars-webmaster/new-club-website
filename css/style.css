@@ -79,6 +79,7 @@ script {
 
 /* ||| HEADER ------------------------------- */
 
+/* Overall Header stuff */
 .header {
   background: url("../img/globalmap.png") no-repeat center center/cover;
   border-radius: 0px;
@@ -128,7 +129,7 @@ script {
   visibility: visible;
 }
 
-/* ||| FULL MENU ------------------------------- */
+/* ||| FULL MENU (drop-down from Hamburger - see .scars-menu in .nav ------------------------------- */
 
 .scars-menu {
   position: absolute;
@@ -169,6 +170,8 @@ script {
   font-size: 1rem;
 }
 
+/* Top right section of header - searchbox and clocks */
+
 .header-top-right {
   display: flex;
   flex-direction: column;
@@ -182,35 +185,9 @@ script {
   padding: 0.3rem;
 }
 
-.searchbox input[type="text"] {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin: 8px 3px 8px 0;
-  padding: 4px;
-  background-color: white;
-  border: none;
-}
+/* Google searchbox */
 
-.searchbox input[type="submit"] {
-  font-size: 1.2rem;
-  background: none;
-  border: none;
-}
-
-.searchbox input[type="text"]:focus {
-  font-size: 1rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin: 8px 3px 8px 0;
-  padding: 4px;
-  background-color: rgb(248, 248, 222);
-  border: none;
-  outline: none;
-}
-
-.searchbox input::placeholder {
-  color: #aaa;
+.gcse-searchbox {
 }
 
 .clock {
