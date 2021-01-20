@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1024px) {
+  .header {
+    background: black;
+    margin: 0;
+  }
+
+  .header-top {
+    visibility: hidden;
+  }
+
+  .header-middle {
+    flex-direction: column;
+    align-items: center;
+    margin: -12rem 0 -4rem 0;
+  }
+
+  .header-middle .scars-icon img {
+    vertical-align: middle;
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .header-middle .title,
+  p.title {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .header-middle .sub-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+
+  .marquee {
+    visibility: hidden;
+  }
+
+  .main-body-title {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    margin-right: 15px;
+  }
+
+  .main-body-title .main-heading h1 {
+    color: #ccc;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .main-body-title .other-content {
+    display: none;
+  }
+
+  .main-body {
+    flex-direction: column;
+  }
+
+  .article h3 {
+    font-size: 1.3rem;
+  }
+
+  .article h4 {
+    font-size: 1.1rem;
+  }
+
+  .article p {
+    font-size: 0.9rem;
+  }
+
+  .lp-main-left {
+    margin: 10px 0;
+  }
+
+  .lp-main-right {
+    max-width: none;
+    margin: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .left-footer-section {
+    display: none;
+  }
+
+  .center-footer-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Medallion icons */
+
+  .medallions {
+    margin: 0;
+    padding: 0;
+  }
+
+  .medallions ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .medallions ul li a {
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+  }
+
+  .right-footer-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+  }
+
+  .right-footer-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .right-footer-section .social-header {
+    display: none;
+  }
+
+  .social-media-icons {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+  }
+
+  .social-media-icons a img {
+    padding: 3px;
+    align-self: auto;
+    border-radius: 0px;
+  }
+
+  .donatebtn {
+    display: none;
+  }
+}

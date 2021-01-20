@@ -217,27 +217,26 @@ script {
 /* Meatball (SCARS Icon/logo), Title and SubTitle in header */
 
 .header-middle {
-  margin-top: -4rem;
-  margin-left: -2rem;
+  margin: -4rem 0 0 -2rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
 }
 
-.scars-icon img {
+.header-middle .scars-icon img {
   vertical-align: middle;
   height: 4rem;
   padding: 0 1.2rem 0 0;
   margin: 0;
 }
 
-.scars-icon ul li a:hover {
+.header-middle .scars-icon ul li a:hover {
   background: none;
   border-radius: 0px;
 }
 
-.title {
+.header-middle .title {
   font-family: ibm3270, monospace;
   font-weight: bold;
   font-size: 3.5rem;
@@ -246,7 +245,7 @@ script {
   text-align: center;
 }
 
-.subtitle {
+.header-middle .subtitle {
   font-family: ibm3270, monospace;
   font-weight: bold;
   font-size: 2rem;
@@ -257,7 +256,7 @@ script {
 
 /* ||| MARQUEE - Scrolling marquee above main content */
 
-.marquee {
+.header .marquee {
   margin-top: 2.2rem;
   display: flex;
   height: 50px;
@@ -267,7 +266,7 @@ script {
   justify-content: center;
 }
 
-.marquee p {
+.header .marquee p {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -331,6 +330,28 @@ script {
   flex-direction: column;
 }
 
+/* ||| MAIN BODY PAGE TITLE ------------------------------- */
+
+.main-body-title {
+  max-width: 1220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0px 30px 0px 15px;
+}
+
+.main-body-title .main-heading h1 {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.main-body-title .main-heading i.fas {
+  border: none;
+  color: #dbdbdb;
+  font-size: 2.5rem;
+  margin-right: 30px;
+}
+
 /* Special button for new hams - licensing/testing */
 
 .newhambtn {
@@ -341,7 +362,7 @@ script {
   justify-content: space-around;
   background-color: orange;
   border-radius: 0px;
-  margin: 5px 0;
+  margin: 5px 0px;
   padding: 5px;
   color: #0d0e0d;
   font-size: 1rem;
@@ -445,28 +466,6 @@ div.bcond:hover .bcond-info {
   margin: 0 0 2rem 0;
 }
 
-/* ||| MAIN BODY PAGE TITLE ------------------------------- */
-
-.main-body-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-
-  margin: 0px 15px 0px 15px;
-}
-
-.main-body-title .main-heading h1 {
-  color: #ccc;
-  font-weight: bold;
-}
-
-.main-body-title .main-heading i.fas {
-  border: none;
-  color: #dbdbdb;
-  font-size: 2.5rem;
-  margin-right: 30px;
-}
-
 /* ||| MAIN BODY ------------------------------- */
 
 .main-body {
@@ -479,7 +478,7 @@ div.bcond:hover .bcond-info {
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px;
-  margin: 0 15px 0 0;
+  margin: 0 15px 15px 0;
   font-family: "Roboto", sans-serif;
   color: black;
 }
@@ -492,6 +491,7 @@ div.bcond:hover .bcond-info {
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px;
+  margin: 0 15px 15px 0;
   font-family: "Roboto", sans-serif;
   color: black;
 }
