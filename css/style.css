@@ -80,6 +80,7 @@ script {
 /* ||| HEADER ------------------------------- */
 
 /* Overall Header stuff */
+
 .header {
   background: url("../img/globalmap.png") no-repeat center center/cover;
   border-radius: 0px;
@@ -96,15 +97,13 @@ script {
 .nav {
   height: 5rem;
   display: flex;
-  align-items: center;
-  top: 0;
 }
 
 .nav ul {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
-  justify-content: space-between;
   margin-left: 1.5rem;
 }
 
@@ -121,53 +120,55 @@ script {
 .nav a:hover {
   background: #333;
   color: white;
-  border-radius: 0px;
-  transition: all 0.4s ease;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .nav ul li:hover .scars-menu {
   visibility: visible;
 }
 
-/* ||| FULL MENU (drop-down from Hamburger - see .scars-menu in .nav ------------------------------- */
+.nav-menu .fas {
+  width: 1rem;
+  text-align: center;
+}
+
+/* ||| FULL MENU (drop-down from Hamburger - see .scars-menu in .nav for visibility on hover --- */
 
 .scars-menu {
   position: absolute;
   top: 65px;
-  left: 55px;
+  left: 30px;
   background-color: #444;
   border-radius: 0px;
-  padding: 5px;
-  z-index: 20;
   display: flex;
-  justify-content: space-around;
   align-items: flex-start;
+  padding: 0 0.8rem;
   visibility: hidden;
+  z-index: 20;
 }
 
 .scars-menu ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  list-style: none;
-  margin: 2rem;
+  margin: 0.6rem;
   padding: 0;
 }
 
 .scars-menu ul li a:hover {
-  background-color: #333;
-  color: #fff;
-  border-radius: 2px;
+  background: #555;
+  color: white;
+  border-radius: 5px;
 }
 
 .scars-menu li.menu-heading {
-  color: #9eb9ec;
+  color: #fff;
   font-weight: bold;
 }
 
 .scars-menu li:not(.menu-heading) {
-  padding: 6px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Top right section of header - searchbox and clocks */
@@ -180,15 +181,17 @@ script {
   margin: 0.3rem;
 }
 
+/* Google searchbox */
+
 .searchbox {
   align-self: flex-end;
   padding: 0.3rem;
 }
 
-/* Google searchbox */
-
 .gcse-searchbox {
 }
+
+/* Clocks */
 
 .clock {
   width: 11.5rem;
@@ -211,7 +214,7 @@ script {
   padding: 0.2rem;
 }
 
-/* Meatball, Title and SubTitle in header */
+/* Meatball (SCARS Icon/logo), Title and SubTitle in header */
 
 .header-middle {
   margin-top: -4rem;
@@ -284,7 +287,7 @@ script {
 
 .header .marquee p,
 .header .marquee a {
-  color: #cbdbf8;
+  color: #ccc;
   font-weight: 300;
   font-size: 1.4rem;
 }
@@ -328,26 +331,7 @@ script {
   flex-direction: column;
 }
 
-/* ||| OVERALL PAGE TITLE ------------------------------- */
-
-.main-body-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 0px 15px 0px 15px;
-}
-
-.main-body-title .main-heading h1 {
-  color: #aaa;
-  font-weight: normal;
-}
-
-.main-body-title .main-heading i.fas {
-  border: none;
-  color: #dbdbdb;
-  font-size: 2.5rem;
-  margin-right: 30px;
-}
+/* Special button for new hams - licensing/testing */
 
 .newhambtn {
   width: 230px;
@@ -400,65 +384,87 @@ div.bcond:hover .bcond-info {
 
 .bcond-info {
   position: absolute;
-  left: 22.5rem;
-  top: 25rem;
+  right: 15rem;
+  top: 4rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   background-color: black;
-  background-size: 100vh 100vw;
-  /* box-shadow: 20px 20px 10px #555; */
-  box-shadow: 10px 10px 20px 10px #888;
-  border: 1px solid #444;
-  border-radius: 15px;
+  border: 2px solid #333;
+  border-radius: 5px;
   color: #ccc;
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 0rem;
   visibility: hidden;
 }
 
-.bcond-info h2 {
-  padding: 12px 0 10px 0;
-  margin: 0 0 15px 0;
-  text-align: center;
-  border-bottom: #dbdbdb 1px solid;
-}
-
-.bcond-info h3 {
-  padding: 20px 0 0 0;
-  text-align: center;
-  border-bottom: #dbdbdb 1px solid;
-}
-
 .bcond-info a {
-  padding: 10px;
+  padding: 5px;
 }
 
-.bcond-rtcol {
+.weather-info {
+  margin: 1.5rem;
+}
+
+.bcond-lower {
   display: flex;
-  flex-direction: column;
-  margin-left: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.bcond-lower a {
+  margin: 1rem;
 }
 
 .solar-data {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   padding: 0;
-  margin: 1rem 0 2rem 1rem;
-  font-size: 1.1rem;
+  margin: 2.1rem 0 1rem 0;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .x-rays {
+  width: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 0 2rem 0;
 }
 
 .geomag {
+  width: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 0 2rem 0;
+}
+
+/* ||| MAIN BODY PAGE TITLE ------------------------------- */
+
+.main-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin: 0px 15px 0px 15px;
+}
+
+.main-body-title .main-heading h1 {
+  color: #ccc;
+  font-weight: bold;
+}
+
+.main-body-title .main-heading i.fas {
+  border: none;
+  color: #dbdbdb;
+  font-size: 2.5rem;
+  margin-right: 30px;
 }
 
 /* ||| MAIN BODY ------------------------------- */

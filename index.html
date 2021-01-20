@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Include for Font Awesome icons -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
+
+    <!-- Include for Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css" /> -->
+
     <link rel="stylesheet" href="css/style.css" />
 
     <title>Silver Comet ARS</title>
@@ -23,10 +27,14 @@
   <body>
     <div id="lp-header" class="header">
       <div class="header-top">
+        <!-- Main menu across top of page -->
         <div id="lp-nav" class="nav">
           <ul>
             <li class="nav-menu">
+              <!-- Hamburger Icon -->
               <a href="#"><i class="fas fa-bars"></i></a>
+
+              <!-- Dropdown menu from Hamburger Icon -->
               <div id="lp-aside" class="scars-menu">
                 <ul>
                   <li class="menu-heading">General Info</li>
@@ -61,6 +69,8 @@
                 </ul>
               </div>
             </li>
+
+            <!-- Main menu across top of page -->
             <li><a href="#">HOME</a></li>
             <li><a href="#">ABOUT</a></li>
             <li><a href="#">NETS</a></li>
@@ -70,6 +80,7 @@
           </ul>
         </div>
 
+        <!-- Searchbox -->
         <div class="header-top-right">
           <div class="searchbox">
             <div
@@ -80,6 +91,7 @@
             ></div>
           </div>
 
+          <!-- Clocks -->
           <div class="clock">
             <div class="clock-label">
               <p>Local</p>
@@ -102,6 +114,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Main page icon/logo, title, and subtitle -->
       <div class="header-middle">
         <div id="meatball">
           <a href="http://www.silvercometars.com" class="scars-icon"
@@ -113,10 +127,9 @@
           <p class="subtitle">Amateur Radio Society</p>
         </div>
       </div>
-      <div class="header-bottom">
-        <div class="header-bottom-side"></div>
-        <div class="header-bottom-side"></div>
-      </div>
+
+      <!-- Scrolling marquee across bottom of header -->
+      <!-- adjust delays below to space content of marquee -->
       <div class="marquee">
         <p style="animation-delay: 0s">
           <a href="http://www.silvercometars.com/about.php#TEST_SESSION" target="_blank"
@@ -134,13 +147,18 @@
       </div>
     </div>
 
+    <!-- Main body of page -->
     <div class="main">
+      <!-- Main page content title (left side)-->
       <div class="main-body-title">
         <div class="main-heading">
           <h1>WELCOME TO SCARS</h1>
         </div>
+
+        <!-- Other content of body content heading (right side) -->
         <div class="other-content">
           <div class="heading-buttons">
+            <!-- Special button for new hams - licensing/testing -->
             <a class="newhambtn" href="licensing.html"
               ><img
                 src="img/green-check.png"
@@ -149,22 +167,28 @@
                 width="30"
               />Licensing/Testing</a
             >
+
+            <!-- Special button to show band conditions and weather forecast panel that will drop down on hover -->
             <div class="bcond">
               <a class="condbtn" href="#"
                 ><i class="fas fa-angle-down"></i><i class="fas fa-cloud-moon"></i>WX / Band
                 Conditions</a
               >
               <div class="bcond-info">
-                <a href="https://rigreference.com/solar" target="_blank"
-                  ><img src="https://rigreference.com/solar/img/tall"
-                /></a>
-                <div class="bcond-rtcol">
+                <div class="weather-info">
+                  <div id="cont_fcb09992889aef1c833b2277da33244c"></div>
+                </div>
+
+                <div class="bcond-lower">
+                  <a href="https://rigreference.com/solar" target="_blank"
+                    ><img src="https://rigreference.com/solar/img/tall" height="400"
+                  /></a>
                   <div class="solar-data">
                     <div class="x-rays">
                       <p>Solar X-rays:</p>
                       <a href="http://www.n3kl.org/sun/noaa.html">
                         <img
-                          width="160"
+                          width="140"
                           height="30"
                           src="http://www.n3kl.org/sun/images/status.gif?"
                       /></a>
@@ -173,7 +197,7 @@
                       <p>Geomagnetic Field:</p>
                       <a href="http://www.n3kl.org/sun/noaa.html">
                         <img
-                          width="160"
+                          width="140"
                           height="30"
                           src="http://www.n3kl.org/sun/images/kpstatus.gif?"
                       /></a>
@@ -182,7 +206,7 @@
                   <a
                     href="http://www.hamqsl.com/solar.html"
                     title="Click to add Solar-Terrestrial Data to your website!"
-                    ><img src="http://www.hamqsl.com/solar101vhfpic.php"
+                    ><img src="http://www.hamqsl.com/solar100sc.php" height="400"
                   /></a>
                 </div>
               </div>
@@ -190,6 +214,8 @@
           </div>
         </div>
       </div>
+
+      <!-- Main body content -->
       <div class="main-body">
         <div class="lp-main-left">
           <div class="article">
@@ -228,6 +254,8 @@
             </p>
           </div>
         </div>
+
+        <!-- Main body content right panel (news, etc) -->
         <div class="lp-main-right">
           <div class="article">
             <h3>Amateur Radio News</h3>
@@ -266,6 +294,7 @@
       </div>
     </div>
 
+    <!-- Footer is three columns -->
     <div class="footer">
       <div class="left-footer-section">
         <h2>ABOUT SCARS</h2>
@@ -339,7 +368,18 @@
         >
       </div>
     </div>
+
+    <!-- Script for google search -->
     <script async src="https://cse.google.com/cse.js?cx=3292a0e472f351a59"></script>
+
+    <!-- Script for weather information -->
+    <script
+      type="text/javascript"
+      async
+      src="https://www.theweather.com/wid_loader/fcb09992889aef1c833b2277da33244c"
+    ></script>
+
+    <!-- include website scripts -->
     <script src="src/scripts.js"></script>
   </body>
 </html>
