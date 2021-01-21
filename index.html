@@ -27,6 +27,7 @@
 
   <body>
     <div id="lp-header" class="header">
+      <!-- top header line for larger screens - hidden for smaller screens ... see below for smaller screens -->
       <div class="header-top">
         <!-- Main menu across top of page -->
         <div id="lp-nav" class="nav">
@@ -111,6 +112,81 @@
             <div class="clock-dateTime">
               <p id="utcDate"></p>
               <p id="utcTime"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile / small screen header menu - hidden for larger screens -->
+      <div class="mobile-header-top">
+        <!-- Main menu across top of page -->
+        <div id="lp-nav" class="nav">
+          <ul>
+            <li class="nav-menu">
+              <!-- Hamburger Icon -->
+              <a href="#"><i class="fas fa-bars"></i></a>
+
+              <!-- Dropdown menu from Hamburger Icon -->
+              <div id="lp-aside" class="scars-menu">
+                <!-- <ul>
+                  <li class="menu-heading"><a href="#">Home</a></li>
+                  <li class="menu-heading"><a href="#">Events</a></li>
+                  <li class="menu-heading"><a href="#">About SCARS</a></li>
+                  <li class="menu-heading"><a href="#">Contact Us</a></li>
+                </ul> -->
+                <button><a class="menu-heading" href="#">Home</a></button>
+                <button><a class="menu-heading" href="#">Events</a></button>
+                <button><a class="menu-heading" href="#">About SCARS</a></button>
+                <button><a class="menu-heading" href="#">Contact Us</a></button>
+                <button class="menu-heading accordion">General Info</button>
+                <div class="panel">
+                  <a href="#">Education</a>
+                  <a href="#">Testing</a>
+                  <a href="#">Web Links</a>
+                  <a href="#">GA ARSA Map</a>
+                </div>
+                <button class="menu-heading accordion">Operating</button>
+                <div class="panel">
+                  <a href="#">Repeaters</a>
+                  <a href="#">Nets</a>
+                  <a href="#">Contests</a>
+                  <a href="#">Digital Modes</a>
+                  <a href="#">Dxing</a>
+                  <a href="#">Morse Code / CW</a>
+                  <a href="#">Software</a>
+                </div>
+                <button class="menu-heading accordion">Member Info</button>
+                <div class="panel">
+                  <a href="#">Newsletters</a>
+                  <a href="#">Forms & Docs</a>
+                  <a href="#">Club Roster</a>
+                  <a href="#">Photos & Videos</a>
+                  <a href="#">Pay Club Dues</a>
+                  <a href="#">Silent Keys</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Searchbox -->
+        <div class="header-top-right">
+          <!-- <div class="searchbox">
+            <div
+              class="gcse-searchbox-only"
+              data-resultsUrl="http://www.silvercometars.com/newsite/searchresults.html"
+              data-newWindow="true"
+              data-queryParameterName="search"
+            ></div>
+          </div> -->
+
+          <!-- Clocks -->
+          <div class="clock">
+            <div class="clock-dateTime">
+              <p id="mobUtcTime"></p>
+            </div>
+            <div class="clock-label">
+              <p>UTC</p>
             </div>
           </div>
         </div>
@@ -207,7 +283,7 @@
                   <a
                     href="http://www.hamqsl.com/solar.html"
                     title="Click to add Solar-Terrestrial Data to your website!"
-                    ><img src="http://www.hamqsl.com/solar100sc.php" height="400"
+                    ><img src="http://www.hamqsl.com/solar100sc.php" height="300"
                   /></a>
                 </div>
               </div>
@@ -334,6 +410,33 @@
                   src="img/ares.gif"
                   alt="ARES"
                   width="95"
+                  title="Amateur Radio Emergency Service"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div id="medallions" class="mobile-medallions">
+          <ul>
+            <li>
+              <a href="http://www.arrl.org/ssc-application">
+                <img
+                  src="img/ssc.gif"
+                  alt="Special Service Club"
+                  width="80"
+                  title="Special Service Club"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.pauldingARES.com"
+                ><img src="img/pcares.gif" alt="PCARES" width="64" title="Paulding County ARES"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.arrl.org/ares"
+                ><img
+                  src="img/ares.gif"
+                  alt="ARES"
+                  width="64"
                   title="Amateur Radio Emergency Service"
               /></a>
             </li>

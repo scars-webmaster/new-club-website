@@ -10,6 +10,7 @@ function addZero(i) {
 function time() {
   var utcDate = document.getElementById("utcDate");
   var utcTime = document.getElementById("utcTime");
+  var mobUtcTime = document.getElementById("mobUtcTime");
   var localDate = document.getElementById("localDate");
   var localTime = document.getElementById("localTime");
 
@@ -49,7 +50,23 @@ function time() {
   var s = addZero(d.getUTCSeconds());
   utcDate.innerHTML = uw + " " + um + " " + ud;
   utcTime.innerHTML = uh + ":" + m + ":" + s;
+  mobUtcTime.innerHTML = uh + ":" + m;
   localDate.innerHTML = lw + " " + lm + " " + ld;
   localTime.innerHTML = lh + ":" + m + ":" + s;
   animate = setTimeout(time, 1000);
+}
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }

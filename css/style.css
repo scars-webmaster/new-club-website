@@ -94,6 +94,10 @@ script {
   justify-content: space-between;
 }
 
+.mobile-header-top {
+  display: none;
+}
+
 .nav {
   height: 5rem;
   display: flex;
@@ -633,7 +637,7 @@ a.paybtn:hover {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0 30px 0;
 }
 
 /* Medallion icons */
@@ -641,6 +645,10 @@ a.paybtn:hover {
 .medallions {
   margin: 0;
   padding: 0;
+}
+
+.mobile-medallions {
+  display: none;
 }
 
 .medallions ul {

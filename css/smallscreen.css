@@ -5,13 +5,99 @@
   }
 
   .header-top {
-    visibility: hidden;
+    display: none;
+  }
+
+  .mobile-header-top {
+    display: block;
+  }
+
+  .mobile-header-top .nav-menu .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 1rem;
+    text-align: center;
+  }
+
+  .scars-menu {
+    position: absolute;
+    top: 42px;
+    left: 30px;
+    flex-direction: column;
+    padding: 1.2rem;
+  }
+
+  .scars-menu a:hover {
+    background: none;
+  }
+
+  .scars-menu .menu-heading,
+  .scars-menu .menu-heading a,
+  .scars-menu button {
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.6rem 0 0 0;
+    margin: 0;
+  }
+
+  .panel {
+    display: none;
+  }
+
+  .scars-menu .panel a {
+    display: block;
+    color: #ccc;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0.3rem 0rem 0.2rem 0.9rem;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .mobile-header-top .header-top-right {
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0.3rem;
+  }
+
+  .mobile-header-top .clock {
+    width: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.4rem;
+    background-color: #444;
+    border-radius: 0px;
+    opacity: 0.75;
+    margin: 0.2rem;
+  }
+
+  .mobile-header-top .clock p {
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    color: yellow;
+    align-self: flex-end;
+    margin: 0;
+    padding: 0.2rem;
   }
 
   .header-middle {
     flex-direction: column;
     align-items: center;
-    margin: -12rem 0 -4rem 0;
+    margin: -3rem 0;
   }
 
   .header-middle .scars-icon img {
@@ -96,21 +182,33 @@
     text-align: center;
   }
 
+  .center-footer-section p {
+    font-size: 0.8rem;
+  }
+
   /* Medallion icons */
 
   .medallions {
+    display: none;
+  }
+
+  .mobile-medallions {
+    display: inline;
     margin: 0;
     padding: 0;
   }
 
-  .medallions ul {
+  .mobile-medallions ul {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
   }
 
-  .medallions ul li a {
+  .mobile-medallions ul li a {
     padding: 0rem;
     margin: 0 7px;
   }
