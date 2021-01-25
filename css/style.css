@@ -26,6 +26,14 @@ body {
   background-color: black;
 }
 
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+button:active {
+  outline: none;
+}
+
 .fas,
 .fab {
   border: none;
@@ -94,85 +102,72 @@ script {
   justify-content: space-between;
 }
 
-.mobile-header-top {
-  display: none;
-}
-
-.nav {
-  height: 5rem;
+.nav-menu {
+  height: 2rem;
   display: flex;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  list-style: none;
-  margin-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.nav ul li {
-  font-size: 1.5rem;
+.nav-menu a {
+  padding: 0.5rem 1rem;
 }
 
-.nav ul li a {
-  padding: 0.5rem 0.6rem;
-  margin: 0 0.4rem;
-  color: #ccc;
-  height: 100%;
-}
-.nav a:hover {
-  background: #333;
+.nav-menu a:hover {
+  background: #444;
   color: white;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
-.nav ul li:hover .scars-menu {
+.nav-menu .hamburger:hover .drop-menu {
   visibility: visible;
-}
-
-.nav-menu .fas {
-  width: 1rem;
-  text-align: center;
 }
 
 /* ||| FULL MENU (drop-down from Hamburger - see .scars-menu in .nav for visibility on hover --- */
 
-.scars-menu {
+.drop-menu {
   position: absolute;
-  top: 65px;
-  left: 30px;
-  background-color: #444;
+  top: 40px;
+  left: 15px;
+  background-color: #333;
   border-radius: 0px;
   display: flex;
   align-items: flex-start;
   padding: 0 0.8rem;
-  visibility: hidden;
   z-index: 20;
+  visibility: hidden;
 }
 
-.scars-menu ul {
+/* only display top items when mobile and not displayed on widescreen */
+#top-items {
+  display: none;
+}
+
+.drop-menu .menu-heading {
+  color: #ffbf00;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.drop-menu .menu-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 0.6rem;
+  margin: 0.9rem;
   padding: 0;
 }
 
-.scars-menu ul li a:hover {
+.drop-menu .menu-section a:not(.menu-heading) {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.1rem 0.5rem;
+  padding: 0.2rem 0.3rem;
+}
+
+.drop-menu a:hover {
   background: #555;
   color: white;
   border-radius: 5px;
-}
-
-.scars-menu li.menu-heading {
-  color: #fff;
-  font-weight: bold;
-}
-
-.scars-menu li:not(.menu-heading) {
-  font-size: 1.2rem;
 }
 
 /* Top right section of header - searchbox and clocks */
@@ -181,18 +176,36 @@ script {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: space-between;
   margin: 0.3rem;
 }
 
-/* Google searchbox */
+/* Searchbox */
 
 .searchbox {
-  align-self: flex-end;
-  padding: 0.3rem;
+  padding-bottom: 0.5rem;
 }
 
-.gcse-searchbox {
+form#sr_newpage {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#sr_searchbox {
+  height: 1.6rem;
+}
+
+#sr_searchbutton {
+  background: none;
+  border: none;
+  margin-left: 8px;
+}
+
+#sr_searchbutton i {
+  font-size: 17px;
+
+  margin: 0;
 }
 
 /* Clocks */
@@ -205,7 +218,7 @@ script {
   background-color: #222;
   border-radius: 0px;
   opacity: 0.75;
-  margin: 0.2rem 2.6rem 0 0;
+  margin: 0.2rem 0rem 0 0;
 }
 
 .clock p {
@@ -218,14 +231,16 @@ script {
   padding: 0.2rem;
 }
 
+#mobile-clock {
+  display: none;
+}
+
 /* Meatball (SCARS Icon/logo), Title and SubTitle in header */
 
 .header-middle {
   margin: -4rem 0 0 -2rem;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
 }
 
 .header-middle .scars-icon img {
@@ -409,8 +424,9 @@ div.bcond:hover .bcond-info {
 
 .bcond-info {
   position: absolute;
-  right: 15rem;
-  top: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -427,7 +443,7 @@ div.bcond:hover .bcond-info {
 }
 
 .weather-info {
-  margin: 1.5rem;
+  margin: 1rem 1.5rem 0 1rem;
 }
 
 .bcond-lower {
@@ -478,7 +494,7 @@ div.bcond:hover .bcond-info {
   margin: 0px 15px 0px 15px;
 }
 
-.lp-main-left {
+.main-body-left {
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px;
@@ -487,7 +503,7 @@ div.bcond:hover .bcond-info {
   color: black;
 }
 
-.lp-main-right {
+.main-body-right {
   max-width: 320px;
   display: flex;
   flex-direction: column;

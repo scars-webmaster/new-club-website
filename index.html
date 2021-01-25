@@ -26,71 +26,78 @@
   </head>
 
   <body>
-    <div id="lp-header" class="header">
+    <div class="header">
       <!-- top header line for larger screens - hidden for smaller screens ... see below for smaller screens -->
       <div class="header-top">
         <!-- Main menu across top of page -->
-        <div id="lp-nav" class="nav">
-          <ul>
-            <li class="nav-menu">
-              <!-- Hamburger Icon -->
-              <a href="#"><i class="fas fa-bars"></i></a>
-
-              <!-- Dropdown menu from Hamburger Icon -->
-              <div id="lp-aside" class="scars-menu">
-                <ul>
-                  <li class="menu-heading">General Info</li>
-                  <li><a href="#">Education</a></li>
-                  <li><a href="#">Testing</a></li>
-                  <li><a href="#">Web Links</a></li>
-                  <li><a href="#">GA ARSA Map</a></li>
-                </ul>
-                <ul>
-                  <li class="menu-heading">Operating</li>
-                  <li><a href="#">Repeaters</a></li>
-                  <li><a href="#">Contests</a></li>
-                  <li><a href="#">Digital Modes</a></li>
-                  <li><a href="#">Dxing</a></li>
-                  <li><a href="#">Morse Code / CW</a></li>
-                  <li><a href="#">Software</a></li>
-                </ul>
-                <ul>
-                  <li class="menu-heading">Member Info</li>
-                  <li><a href="#">Newsletters</a></li>
-                  <li><a href="#">Forms & Docs</a></li>
-                  <li><a href="#">Club Roster</a></li>
-                  <li><a href="#">Photos & Videos</a></li>
-                  <li><a href="#">Pay Club Dues</a></li>
-                  <li><a href="#">Silent Keys</a></li>
-                </ul>
-                <ul>
-                  <li class="menu-heading">Social Media</li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">YouTube</a></li>
-                  <li><a href="#">Groups.io</a></li>
-                </ul>
+        <div class="nav-menu">
+          <!-- Hamburger Icon -->
+          <div class="hamburger">
+            <a href="#"><i class="fas fa-bars"></i></a>
+            <!-- Dropdown menu from Hamburger Icon -->
+            <div class="drop-menu">
+              <div id="top-items" class="menu-section">
+                <a class="menu-heading" href="#">HOME</a>
+                <a class="menu-heading" href="#">ABOUT</a>
+                <a class="menu-heading" href="#">NETS</a>
+                <a class="menu-heading" href="#">EVENTS</a>
+                <a class="menu-heading" href="#">MEMBERS</a>
+                <a class="menu-heading" href="#">CONTACT</a>
               </div>
-            </li>
 
-            <!-- Main menu across top of page -->
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">NETS</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li><a href="#">MEMBERS</a></li>
-            <li><a href="#">CONTACT</a></li>
-          </ul>
+              <div id="general" class="menu-section">
+                <p class="menu-heading">GENERAL INFO</p>
+                <a href="#">Education</a>
+                <a href="#">Testing</a>
+                <a href="#">Web Links</a>
+                <a href="#">GA ARSA Map</a>
+              </div>
+
+              <div id="operating" class="menu-section">
+                <p class="menu-heading">OPERATING</p>
+                <a href="#">Repeaters</a>
+                <a href="#">Contests</a>
+                <a href="#">Digital Modes</a>
+                <a href="#">Dxing</a>
+                <a href="#">Morse Code / CW</a>
+                <a href="#">Software</a>
+              </div>
+
+              <div id="member" class="menu-section">
+                <p class="menu-heading">MEMBER INFO</p>
+                <a href="#">Newsletters</a>
+                <a href="#">Forms & Docs</a>
+                <a href="#">Club Roster</a>
+                <a href="#">Photos & Videos</a>
+                <a href="#">Pay Club Dues</a>
+                <a href="#">Silent Keys</a>
+              </div>
+
+              <div id="social" class="menu-section">
+                <p class="menu-heading">SOCIAL MEDIA</p>
+                <a href="#">Facebook</a>
+                <a href="#">YouTube</a>
+                <a href="#">Groups.io</a>
+              </div>
+            </div>
+          </div>
+
+          <a class="key-menu" href="#">HOME</a>
+          <a class="key-menu" href="#">ABOUT</a>
+          <a class="key-menu" href="#">NETS</a>
+          <a class="key-menu" href="#">EVENTS</a>
+          <a class="key-menu" href="#">MEMBERS</a>
+          <a class="key-menu" href="#">CONTACT</a>
         </div>
 
         <!-- Searchbox -->
         <div class="header-top-right">
           <div class="searchbox">
-            <div
-              class="gcse-searchbox-only"
-              data-resultsUrl="http://www.silvercometars.com/newsite/searchresults.html"
-              data-newWindow="true"
-              data-queryParameterName="search"
-            ></div>
+            <form action="//www.findberry.com/search/" method="get" id="sr_newpage">
+              <input type="hidden" name="wid" value="13458" />
+              <input id="sr_searchbox" type="text" name="query" value="" size="15" />
+              <button id="sr_searchbutton" type="submit"><i class="fas fa-search"></i></button>
+            </form>
           </div>
 
           <!-- Clocks -->
@@ -114,79 +121,9 @@
               <p id="utcTime"></p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Mobile / small screen header menu - hidden for larger screens -->
-      <div class="mobile-header-top">
-        <!-- Main menu across top of page -->
-        <div id="lp-nav" class="nav">
-          <ul>
-            <li class="nav-menu">
-              <!-- Hamburger Icon -->
-              <a href="#"><i class="fas fa-bars"></i></a>
-
-              <!-- Dropdown menu from Hamburger Icon -->
-              <div id="lp-aside" class="scars-menu">
-                <!-- <ul>
-                  <li class="menu-heading"><a href="#">Home</a></li>
-                  <li class="menu-heading"><a href="#">Events</a></li>
-                  <li class="menu-heading"><a href="#">About SCARS</a></li>
-                  <li class="menu-heading"><a href="#">Contact Us</a></li>
-                </ul> -->
-                <button><a class="menu-heading" href="#">Home</a></button>
-                <button><a class="menu-heading" href="#">Events</a></button>
-                <button><a class="menu-heading" href="#">About SCARS</a></button>
-                <button><a class="menu-heading" href="#">Contact Us</a></button>
-                <button class="menu-heading accordion">General Info</button>
-                <div class="panel">
-                  <a href="#">Education</a>
-                  <a href="#">Testing</a>
-                  <a href="#">Web Links</a>
-                  <a href="#">GA ARSA Map</a>
-                </div>
-                <button class="menu-heading accordion">Operating</button>
-                <div class="panel">
-                  <a href="#">Repeaters</a>
-                  <a href="#">Nets</a>
-                  <a href="#">Contests</a>
-                  <a href="#">Digital Modes</a>
-                  <a href="#">Dxing</a>
-                  <a href="#">Morse Code / CW</a>
-                  <a href="#">Software</a>
-                </div>
-                <button class="menu-heading accordion">Member Info</button>
-                <div class="panel">
-                  <a href="#">Newsletters</a>
-                  <a href="#">Forms & Docs</a>
-                  <a href="#">Club Roster</a>
-                  <a href="#">Photos & Videos</a>
-                  <a href="#">Pay Club Dues</a>
-                  <a href="#">Silent Keys</a>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Searchbox -->
-        <div class="header-top-right">
-          <!-- <div class="searchbox">
-            <div
-              class="gcse-searchbox-only"
-              data-resultsUrl="http://www.silvercometars.com/newsite/searchresults.html"
-              data-newWindow="true"
-              data-queryParameterName="search"
-            ></div>
-          </div> -->
-
-          <!-- Clocks -->
-          <div class="clock">
+          <div class="clock" id="mobile-clock">
             <div class="clock-dateTime">
               <p id="mobUtcTime"></p>
-            </div>
-            <div class="clock-label">
-              <p>UTC</p>
             </div>
           </div>
         </div>
@@ -253,7 +190,7 @@
               >
               <div class="bcond-info">
                 <div class="weather-info">
-                  <div id="cont_fcb09992889aef1c833b2277da33244c"></div>
+                  <div id="cont_5fc7b8f3cf289b0e7980b50be5105044"></div>
                 </div>
 
                 <div class="bcond-lower">
@@ -294,7 +231,7 @@
 
       <!-- Main body content -->
       <div class="main-body">
-        <div class="lp-main-left">
+        <div class="main-body-left">
           <div class="article">
             <h3>WELCOME TO DALLAS, GA</h3>
             <h4>The home of the Silver Comet Amateur Radio Society, Inc.</h4>
@@ -333,7 +270,7 @@
         </div>
 
         <!-- Main body content right panel (news, etc) -->
-        <div class="lp-main-right">
+        <div class="main-body-right">
           <div class="article">
             <h3>Amateur Radio News</h3>
           </div>
@@ -480,7 +417,7 @@
     <script
       type="text/javascript"
       async
-      src="https://www.theweather.com/wid_loader/fcb09992889aef1c833b2277da33244c"
+      src="https://www.theweather.com/wid_loader/5fc7b8f3cf289b0e7980b50be5105044"
     ></script>
 
     <!-- include website scripts -->
