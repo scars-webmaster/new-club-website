@@ -124,7 +124,7 @@ script {
   visibility: visible;
 }
 
-/* ||| FULL MENU (drop-down from Hamburger - see .scars-menu in .nav for visibility on hover --- */
+/* ||| MENU (drop-down from Hamburger --- */
 
 .drop-menu {
   position: absolute;
@@ -211,7 +211,7 @@ form#sr_newpage {
 /* Clocks */
 
 .clock {
-  width: 11.5rem;
+  width: 12.2rem;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem;
@@ -229,6 +229,11 @@ form#sr_newpage {
   align-self: flex-end;
   margin: 0;
   padding: 0.2rem;
+}
+
+#localTime,
+#utcTime {
+  padding-left: 1rem;
 }
 
 #mobile-clock {
@@ -306,7 +311,7 @@ form#sr_newpage {
 .header .marquee p,
 .header .marquee a {
   color: #ccc;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4rem;
 }
 
@@ -349,7 +354,7 @@ form#sr_newpage {
   flex-direction: column;
 }
 
-/* ||| MAIN BODY PAGE TITLE ------------------------------- */
+/* ||| MAIN BODY PAGE TITLE BELOW HEADER ------------------------------- */
 
 .main-body-title {
   max-width: 1220px;
@@ -424,9 +429,9 @@ div.bcond:hover .bcond-info {
 
 .bcond-info {
   position: absolute;
-  top: 50%;
+  top: 70px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   display: flex;
   flex-direction: column;
   background-color: black;
@@ -450,24 +455,40 @@ div.bcond:hover .bcond-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   margin: 0 1rem;
 }
 
 .bcond-lower a {
-  margin: 1rem;
+  margin: 0;
+}
+
+.propagation {
+  margin: 0;
+  padding: 0;
 }
 
 .solar-data {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 2.1rem 0 1rem 0;
+  margin: 0.6rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .x-rays {
-  width: 10rem;
+  width: 11rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 0 1rem 0;
+}
+
+.geomag {
+  width: 11rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -476,14 +497,9 @@ div.bcond:hover .bcond-info {
   margin: 0 0 2rem 0;
 }
 
-.geomag {
-  width: 10rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 1px solid #ccc;
-  margin: 0 0 2rem 0;
+.space-weather {
+  margin: 0.4rem;
+  padding: 0;
 }
 
 /* ||| MAIN BODY ------------------------------- */
@@ -552,7 +568,8 @@ div.bcond:hover .bcond-info {
   margin: 1.2rem 0 2rem 0;
 }
 
-/* 
+/* ||| RSS NEWS FEEDS
+
 This represents the CSS classes created by Feed2JS below
 
 rss-box defines the bounding div for the entire display- use to define borders, fill, etc.
