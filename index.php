@@ -47,7 +47,7 @@
                 alt="Green Check"
                 height="30"
                 width="30"
-              />Licensing/Testing</a
+              />Licensing & Testing Info</a
             >
             
             <!-- WX and Band Conditions Panel -->

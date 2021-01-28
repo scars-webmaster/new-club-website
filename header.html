@@ -4,10 +4,15 @@
     <!-- Main menu across top of page -->
     <div class="nav-menu">
       <!-- Hamburger Icon -->
-      <div class="hamburger">
-        <a href="#"><i class="fas fa-bars"></i></a>
+      <div class="side-menu">
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu" />
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+          <div class="spinner diagonal part-1"></div>
+          <div class="spinner horizontal"></div>
+          <div class="spinner diagonal part-2"></div>
+        </label>
         <!-- Dropdown menu from Hamburger Icon -->
-        <div class="drop-menu">
+        <div id="drop-menu" class="drop-menu">
           <div id="top-items" class="menu-section">
             <a class="menu-heading" href="#">HOME</a>
             <a class="menu-heading" href="#">ABOUT</a>
@@ -17,57 +22,83 @@
           </div>
 
           <div id="general" class="menu-section">
-            <p class="menu-heading">GENERAL INFO</p>
-            <a href="#">Education</a>
-            <a href="#">Testing</a>
-            <a href="#">Web Links</a>
-            <a href="#">GA ARSA Map</a>
+            <button class="dropdown-button">
+              <div class="button-text">
+                <div class="menu-heading">GENERAL INFO</div>
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Education</a>
+              <a href="#">Testing</a>
+              <a href="#">Web Links</a>
+              <a href="#">GA ARSA Map</a>
+            </div>
           </div>
 
           <div id="operating" class="menu-section">
-            <p class="menu-heading">OPERATING</p>
-            <a href="#">Repeaters</a>
-            <a href="#">Contests</a>
-            <a href="#">Digital Modes</a>
-            <a href="#">Dxing</a>
-            <a href="#">Morse Code / CW</a>
-            <a href="#">Software</a>
+            <button class="dropdown-button">
+              <div class="button-text">
+                <div class="menu-heading">OPERATING</div>
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Repeaters</a>
+              <a href="#">Contests</a>
+              <a href="#">Digital Modes</a>
+              <a href="#">Dxing</a>
+              <a href="#">Morse Code / CW</a>
+              <a href="#">Software</a>
+            </div>
           </div>
 
           <div id="member" class="menu-section">
-            <p class="menu-heading">MEMBER INFO</p>
-            <a href="#">Newsletters</a>
-            <a href="#">Forms & Docs</a>
-            <a href="#">Club Roster</a>
-            <a href="#">Photos & Videos</a>
-            <a href="#">Pay Club Dues</a>
-            <a href="#">Silent Keys</a>
+            <button class="dropdown-button">
+              <div class="button-text">
+                <div class="menu-heading">MEMBER INFO</div>
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Newsletters</a>
+              <a href="#">Forms & Docs</a>
+              <a href="#">Club Roster</a>
+              <a href="#">Photos & Videos</a>
+              <a href="#">Pay Club Dues</a>
+              <a href="#">Silent Keys</a>
+            </div>
           </div>
 
           <div id="social" class="menu-section">
-            <p class="menu-heading">SOCIAL MEDIA</p>
-            <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
-            <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
-            <a href="#"><i class="fas fa-envelope"></i>Groups.io</a>
+            <button class="dropdown-button">
+              <div class="button-text">
+                <div class="menu-heading">SOCIAL MEDIA</div>
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
+              <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
+              <a href="#"><i class="fas fa-envelope"></i>Groups.io</a>
+            </div>
           </div>
         </div>
+        <a class="key-menu" href="#">HOME</a>
+        <a class="key-menu" href="#">ABOUT</a>
+        <a class="key-menu" href="#">NETS</a>
+        <a class="key-menu" href="#">EVENTS</a>
+        <a class="key-menu" href="#">CONTACT</a>
       </div>
-
-      <a class="key-menu" href="#">HOME</a>
-      <a class="key-menu" href="#">ABOUT</a>
-      <a class="key-menu" href="#">NETS</a>
-      <a class="key-menu" href="#">EVENTS</a>
-      <a class="key-menu" href="#">CONTACT</a>
     </div>
 
     <!-- Searchbox -->
     <div class="header-top-right">
       <div class="searchbox">
-        <form action="//www.findberry.com/search/" method="get" id="sr_newpage">
-          <input type="hidden" name="wid" value="13458" />
-          <input id="sr_searchbox" type="text" name="query" value="" size="15" />
-          <button id="sr_searchbutton" type="submit"><i class="fas fa-search"></i></button>
-        </form>
+        <!-- <script async src="https://cse.google.com/cse.js?cx=3292a0e472f351a59"></script>
+        <div class="gcse-search"></div> -->
+        <script async src="https://cse.google.com/cse.js?cx=3292a0e472f351a59"></script>
+        <div class="gcse-searchbox-only"></div>
       </div>
 
       <!-- Clocks -->
@@ -91,6 +122,7 @@
       </div>
       <div class="clock" id="mobile-clock">
         <div class="clock-dateTime">
+          <p id="mobLocalTime"></p>
           <p id="mobUtcTime"></p>
         </div>
       </div>

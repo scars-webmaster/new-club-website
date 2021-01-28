@@ -26,6 +26,14 @@ body {
   background-color: black;
 }
 
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  background: none;
+  border: none;
+}
+
 input:focus,
 textarea:focus,
 select:focus,
@@ -107,36 +115,108 @@ script {
   display: flex;
   align-items: center;
   font-size: 1.2rem;
+  margin: 0 0 0 55px;
 }
 
 .nav-menu a {
   padding: 0.5rem 1rem;
 }
 
-.nav-menu a:hover {
+.nav-menu a:hover,
+label.sidebarIconToggle:hover {
   background: #444;
   color: white;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
-.nav-menu .hamburger:hover .drop-menu {
-  visibility: visible;
+input[type="checkbox"]:checked ~ #drop-menu {
+  transform: translateX(0);
+}
+
+input[type="checkbox"] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 15px;
+  left: 32px;
+  height: 22px;
+  width: 22px;
+}
+
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
 }
 
 /* ||| MENU (drop-down from Hamburger --- */
 
 .drop-menu {
   position: absolute;
-  top: 40px;
-  left: 15px;
+  top: 2.6rem;
+  left: 0;
+  height: 15rem;
+  width: 770px;
   background-color: #333;
   border-radius: 0px;
   display: flex;
   align-items: flex-start;
   padding: 0 0.8rem;
+  margin-left: 15px;
   z-index: 20;
-  visibility: hidden;
+  transform: translateX(-785px);
+  transition: transform 250ms ease-in-out;
 }
 
 /* only display top items when mobile and not displayed on widescreen */
@@ -144,24 +224,39 @@ script {
   display: none;
 }
 
+.drop-menu .menu-section {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1.8rem 1rem 1rem;
+  padding: 0;
+}
+
+.drop-menu .menu-section .dropdown-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
 .drop-menu .menu-heading {
   color: #ffbf00;
   font-size: 1.3rem;
   font-weight: 400;
+  text-align: left;
+  background: none;
+  margin: 0;
+  padding: 0;
 }
 
-.drop-menu .menu-section {
-  display: flex;
-  flex-direction: column;
-  margin: 0.9rem;
-  padding: 0;
+button.dropdown-button .button-text .fas {
+  display: none;
 }
 
 .drop-menu .menu-section a:not(.menu-heading) {
   font-size: 1rem;
   font-weight: 300;
-  margin: 0.1rem 0.5rem;
-  padding: 0.2rem 0.3rem;
+  margin: 0 0 0.3rem 0;
+  padding: 0rem 0.5rem;
 }
 
 .drop-menu a:hover {
@@ -182,30 +277,38 @@ script {
 /* Searchbox */
 
 .searchbox {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.2rem;
 }
 
-form#sr_newpage {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+.gsib_a {
+  margin: 0 !important;
+  padding: 0 5px 0 5px !important;
+  color: #333;
 }
 
-#sr_searchbox {
-  height: 1.6rem;
+.gsc-input-box {
+  width: 150px !important;
+  border-color: #111 !important;
+  height: 25px !important;
+  padding: 0 !important;
+  border-radius: 0px !important;
 }
 
-#sr_searchbutton {
-  background: none;
-  border: none;
-  margin-left: 8px;
+.gsc-input {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 0.8rem !important;
+  padding: 0 6px 0 0 !important;
 }
 
-#sr_searchbutton i {
-  font-size: 17px;
+.gsc-search-button {
+  background-color: #444 !important;
+  width: 35px !important;
+  height: 30px !important;
+}
 
-  margin: 0;
+.gsc-search-button-v2 {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 /* Clocks */
