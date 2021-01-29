@@ -106,12 +106,39 @@
     border-radius: 5px;
   }
 
+  .drop-menu #social .dropdown-button,
+  .drop-menu #social .dropdown-container {
+    display: none;
+  }
+
+  .mobile-social-media-icons {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 1px solid #777;
+    margin: 1rem 0 0 0;
+    padding: 0.8rem 0 0 0;
+  }
+
+  .drop-menu .menu-section .mobile-social-media-icons a,
+  .drop-menu .menu-section .mobile-social-media-icons a img {
+    /* align-self: center; */
+    border-radius: 0px;
+    margin: 0 0 0 0.3rem;
+    padding: 0;
+  }
+
   .searchbox {
-    padding-right: 5px;
+    display: none;
+  }
+
+  .mobile-searchbox {
+    display: contents;
   }
 
   .gsc-input-box {
-    width: 100px !important;
+    width: 175px !important;
   }
 
   .clock {
@@ -124,8 +151,13 @@
     padding-right: 10px;
   }
 
+  #mobile-clock p {
+    font-size: 1.3rem;
+    padding: 0 0.2rem 0 0.2rem;
+  }
+
   .header-middle {
-    margin: 0.5rem 0 -4rem 0;
+    margin: 1rem 0 -4rem 0;
   }
 
   .header-middle .scars-icon img {
@@ -259,6 +291,8 @@
 
   .center-footer-section p {
     font-size: 0.8rem;
+    padding: 0.5rem 5px;
+    overflow-wrap: break-word;
   }
 
   /* Medallion icons */

@@ -265,6 +265,10 @@ button.dropdown-button .button-text .fas {
   border-radius: 5px;
 }
 
+.mobile-social-media-icons {
+  display: none;
+}
+
 /* Top right section of header - searchbox and clocks */
 
 .header-top-right {
@@ -278,6 +282,10 @@ button.dropdown-button .button-text .fas {
 
 .searchbox {
   padding-bottom: 0.2rem;
+}
+
+.mobile-searchbox {
+  display: none;
 }
 
 .gsib_a {
@@ -301,13 +309,14 @@ button.dropdown-button .button-text .fas {
 }
 
 .gsc-search-button {
-  background-color: #444 !important;
+  background: none !important;
   border-radius: 0 !important;
   width: 35px !important;
   height: 30px !important;
 }
 
 .gsc-search-button-v2 {
+  border: none !important;
   padding: 0 !important;
   margin: 0 !important;
 }

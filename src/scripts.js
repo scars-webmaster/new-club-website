@@ -54,7 +54,7 @@ function time() {
   mobUtcTime.innerHTML = "UTC " + uh + ":" + m;
   localDate.innerHTML = lw + " " + lm + " " + ld;
   localTime.innerHTML = lh + ":" + m + ":" + s;
-  mobLocalTime.innerHTML = "LCL " + lh + ":" + m;
+  mobLocalTime.innerHTML = "LOCAL " + lh + ":" + m;
   animate = setTimeout(time, 1000);
 }
 
