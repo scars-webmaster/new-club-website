@@ -57,7 +57,7 @@
     font-size: 1.1rem;
     font-weight: 500;
     color: #ffbf00;
-    padding: 0.3rem 0 0 0.6rem;
+    padding: 0.3rem 0.6rem 0 0.6rem;
   }
 
   button.dropdown-button .button-text:hover {
@@ -125,7 +125,7 @@
   }
 
   .header-middle {
-    margin: 1rem 0 -4rem 0;
+    margin: 0.5rem 0 -4rem 0;
   }
 
   .header-middle .scars-icon img {
@@ -153,7 +153,7 @@
     width: 100%;
     min-width: 300px;
     margin: auto;
-    align-items: flex-start;
+    align-items: center;
     background-color: #333;
     padding: 3px;
   }
@@ -166,16 +166,17 @@
     padding: 5px 5px;
   }
 
-  .main-body-title .other-content .heading-buttons a:not(.newhambtn) {
-    display: none;
+  .main-body-title .other-content {
+    display: flex;
+    align-items: center;
   }
 
-  .newhambtn img {
+  .main-body-title .other-content .heading-buttons .bcond {
     display: none;
   }
 
   .newhambtn {
-    width: 75px;
+    width: 106px;
     height: 32px;
     align-self: flex-end;
     display: flex;
@@ -194,6 +195,12 @@
 
   .newhambtn a {
     overflow-wrap: break-word;
+  }
+
+  .newhambtn img {
+    height: 16px;
+    width: 16px;
+    margin: 5px;
   }
 
   .main-body {
