@@ -54,7 +54,7 @@ function time() {
   mobUtcTime.innerHTML = "UTC " + uh + ":" + m;
   localDate.innerHTML = lw + " " + lm + " " + ld;
   localTime.innerHTML = lh + ":" + m + ":" + s;
-  mobLocalTime.innerHTML = "LOCAL " + lh + ":" + m;
+  mobLocalTime.innerHTML = "Local " + lh + ":" + m;
   animate = setTimeout(time, 1000);
 }
 
@@ -79,3 +79,15 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }
+
+window.addEventListener("resize", function () {
+  for (i = 0; i < dropdown.length; i++) {
+    var dropdownContent = dropdown[i].nextElementSibling;
+    // If menu is open & media query matches small screen
+    if (x.matches) {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "flex";
+    }
+  }
+});

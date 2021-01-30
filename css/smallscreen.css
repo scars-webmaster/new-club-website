@@ -141,6 +141,20 @@
     width: 175px !important;
   }
 
+  .gsc-results-wrapper-overlay {
+    position: fixed !important;
+    opacity: 1 !important;
+    top: 0px !important;
+    left: 0px !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    min-width: 320px !important;
+    min-height: 480px !important;
+    max-width: 800px !important;
+    padding: 30px 15px !important;
+    margin: -42px auto auto auto !important;
+  }
+
   .clock {
     display: none;
   }
@@ -187,7 +201,7 @@
     margin: auto;
     align-items: center;
     background-color: #333;
-    padding: 3px;
+    padding: 0 0 0 3px;
   }
 
   .main-body-title .main-heading h1 {
@@ -198,9 +212,13 @@
     padding: 5px 5px;
   }
 
-  .main-body-title .other-content {
+  .main-body-title .other-content,
+  .main-body-title .other-content .heading-buttons {
+    height: 100%;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
   }
 
   .main-body-title .other-content .heading-buttons .bcond {
@@ -209,20 +227,21 @@
 
   .newhambtn {
     width: 106px;
-    height: 32px;
+    height: 100%;
     align-self: flex-end;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     background-color: orange;
+    border: none;
     border-radius: 0px;
     color: black;
     font-size: 0.8rem;
     font-weight: bold;
     line-height: 1;
     opacity: 1;
-    margin: 2px 2px;
-    padding: 3px;
+    margin: 0;
+    padding: 4px;
   }
 
   .newhambtn a {

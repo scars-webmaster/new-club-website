@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DR7Z07WWX2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DR7Z07WWX2');
+</script>
+
     <!-- Include for Font Awesome icons -->
     <link
       rel="stylesheet"
@@ -34,7 +44,7 @@
       <!-- Main page content title (left side)-->
       <div class="main-body-title">
         <div class="main-heading">
-          <h1>WELCOME TO SCARS</h1>
+          <h1>QRA - SCARS</h1>
         </div>
 
         <!-- Other content of body content heading (right side) -->
@@ -62,7 +72,7 @@
       <!-- Left panel of main body -->
         <div class="main-body-left">
           <div class="article">
-            <h3>WELCOME TO DALLAS, GA</h3>
+            <h3>QTH - DALLAS, GA</h3>
             <h4>The home of the Silver Comet Amateur Radio Society, Inc.</h4>
             <p>
               We are an American Radio Relay League (ARRL) Special Service Club located in and
