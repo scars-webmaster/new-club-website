@@ -61,12 +61,24 @@ function time() {
 // Get all of the dropdown button elements
 var dropdown = document.getElementsByClassName("dropdown-button");
 
-var i;
-
 // Check window size against max width for mobile
 var x = window.matchMedia("(max-width: 1024px)");
 
-// Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict
+// Capture initial width to be able to determine later if it changes -
+// this affects mobile browsers that fire resize on scrolling for some
+// reason
+var win_width = window.innerWidth;
+console.log("initial width: " + win_width);
+
+// Counter
+var i;
+
+// Window size check
+var win_size_change;
+
+// Loop through all dropdown buttons to toggle between hiding and
+// showing its dropdown content - This allows the user to have
+// multiple dropdowns without any conflict
 for (i = 0; i < dropdown.length; i++) {
   dropdown[i].addEventListener("click", function () {
     this.classList.toggle("active");
@@ -82,24 +94,29 @@ for (i = 0; i < dropdown.length; i++) {
 
 // If window is resized, check window size to see if need to switch to smallscreen or regular
 window.addEventListener("resize", function () {
+  // Double check size change for mobile browsers that trigger resize
+  // event on scroll
+  if (win_width != window.innerWidth) {
+    win_size_change = true;
+  } else {
+    win_size_change = false;
+  }
+
   for (i = 0; i < dropdown.length; i++) {
     var dropdownContent = dropdown[i].nextElementSibling;
-    // If menu is closed & media query matches small screen, keep it closed
-    console.log(
-      dropdownContent.parentNode.id +
-        " " +
-        dropdownContent.style.display +
-        ": " +
-        x.matches
-    );
+    // If matches small screen close it and hide the social media menu
     if (x.matches) {
       if (dropdownContent.parentNode.id == "social") {
         dropdown[i].style.display = "none";
+        dropdownContent.style.display = "none";
       }
-      dropdownContent.style.display = "none";
+      if (win_size_change) {
+        dropdownContent.style.display = "none";
+      }
     } else {
       dropdownContent.style.display = "flex";
       dropdown[i].style.display = "contents";
     }
   }
+  win_width = window.innerWidth;
 });
