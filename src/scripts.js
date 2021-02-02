@@ -80,14 +80,26 @@ for (i = 0; i < dropdown.length; i++) {
   });
 }
 
+// If window is resized, check window size to see if need to switch to smallscreen or regular
 window.addEventListener("resize", function () {
   for (i = 0; i < dropdown.length; i++) {
     var dropdownContent = dropdown[i].nextElementSibling;
-    // If menu is open & media query matches small screen
+    // If menu is closed & media query matches small screen, keep it closed
+    console.log(
+      dropdownContent.parentNode.id +
+        " " +
+        dropdownContent.style.display +
+        ": " +
+        x.matches
+    );
     if (x.matches) {
+      if (dropdownContent.parentNode.id == "social") {
+        dropdown[i].style.display = "none";
+      }
       dropdownContent.style.display = "none";
     } else {
       dropdownContent.style.display = "flex";
+      dropdown[i].style.display = "contents";
     }
   }
 });
