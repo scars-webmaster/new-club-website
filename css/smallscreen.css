@@ -46,7 +46,7 @@
   .drop-menu a.menu-heading {
     background: none;
     color: #ffbf00;
-    padding: 0.3rem 0 0 0.6rem;
+    padding: 0.2rem 0 0 0.6rem;
   }
 
   button.dropdown-button .button-text {
@@ -117,8 +117,8 @@
     align-items: center;
     justify-content: flex-start;
     border-top: 1px solid #777;
-    margin: 1rem 0 0 0;
-    padding: 0.8rem 0 0 0;
+    margin: 0.8rem 0 0 0;
+    padding: 0.7rem 0 0 0;
   }
 
   .drop-menu .menu-section .mobile-social-media-icons a,
@@ -221,10 +221,6 @@
     padding: 0;
   }
 
-  .main-body-title .other-content .heading-buttons .bcond {
-    display: none;
-  }
-
   .newhambtn {
     width: 106px;
     height: 100%;
@@ -252,6 +248,26 @@
     height: 16px;
     width: 16px;
     margin: 5px;
+  }
+
+  .main-body-title .other-content .heading-buttons .bcond {
+    display: none;
+  }
+
+  .bcond-lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+  }
+
+  .bcond-lower h1 {
+    font-size: 1.6rem;
+  }
+
+  .solar-data p {
+    color: white;
   }
 
   .main-body {
