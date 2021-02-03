@@ -98,7 +98,7 @@ for (i = 0; i < dropdown.length; i++) {
 window.addEventListener("resize", function () {
   // Double check size change for mobile browsers that trigger resize
   // event on scroll
-  // console.log(win_width + ", " + doc_width + ", " + offset_width);
+  alert(win_width + ", " + doc_width + ", " + offset_width);
   if (offset_width != document.body.offsetWidth) {
     win_size_change = true;
   } else {
