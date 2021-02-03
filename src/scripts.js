@@ -68,7 +68,9 @@ var x = window.matchMedia("(max-width: 1024px)");
 // this affects mobile browsers that fire resize on scrolling for some
 // reason
 var win_width = window.innerWidth;
-console.log("initial width: " + win_width);
+var doc_width = document.body.clientWidth;
+var offset_width = document.body.offsetWidth;
+// console.log("initial: " + win_width + ", " + doc_width + ", " + offset_width);
 
 // Counter
 var i;
@@ -96,7 +98,8 @@ for (i = 0; i < dropdown.length; i++) {
 window.addEventListener("resize", function () {
   // Double check size change for mobile browsers that trigger resize
   // event on scroll
-  if (win_width != window.innerWidth) {
+  // console.log(win_width + ", " + doc_width + ", " + offset_width);
+  if (offset_width != document.body.offsetWidth) {
     win_size_change = true;
   } else {
     win_size_change = false;
@@ -119,4 +122,6 @@ window.addEventListener("resize", function () {
     }
   }
   win_width = window.innerWidth;
+  doc_width = document.body.clientWidth;
+  offset_width = document.body.offsetWidth;
 });
