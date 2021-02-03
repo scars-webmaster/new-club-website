@@ -40,6 +40,7 @@
 
     <!-- Main body of page -->
     <div class="main">
+      <!-- Google search results -->
       <script async src="https://cse.google.com/cse.js?cx=3292a0e472f351a59"></script>
       <div class="gcse-searchresults-only"></div>
     </div>
