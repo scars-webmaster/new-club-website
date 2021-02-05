@@ -12,7 +12,7 @@
         <h1>BAND CONDITIONS</h1>
           <div class="propagation">
             <a href="https://rigreference.com/solar" target="_blank"
-              ><img src="https://rigreference.com/solar/img/tall" height="400"
+              ><img src="https://rigreference.com/solar/newsite/img/tall" height="400"
             /></a>
           </div>
           <div class="solar-data">

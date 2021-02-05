@@ -21,7 +21,7 @@
             <!-- Special button for new hams - licensing/testing -->
             <a class="newhambtn" href="/pages/licensing-testing.php"
               ><img
-                src='/img/green-check.png'
+                src='/newsite/img/green-check.png'
                 alt="Green Check"
                 height="30"
                 width="30"
