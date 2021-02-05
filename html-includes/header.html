@@ -11,19 +11,22 @@
           <div class="spinner horizontal"></div>
           <div class="spinner diagonal part-2"></div>
         </label>
-        <!-- Dropdown menu from Hamburger Icon -->
+
+        <!-- Dropdown menu panel from Hamburger Icon smallscreen and large screen are different mostly by css-->
         <div id="drop-menu" class="drop-menu">
           <div class="mobile-searchbox">
             <script async src="https://cse.google.com/cse.js?cx=3292a0e472f351a59"></script>
             <div class="gcse-searchbox-only"></div>
           </div>
+
+          <!-- Main menu items for mobile (main menu items for large screen are below) -->
           <div id="top-items" class="menu-section">
-            <a class="menu-heading" href="#">HOME</a>
-            <a class="menu-heading" href="#">ABOUT</a>
-            <a class="menu-heading" href="#">NETS</a>
-            <a class="menu-heading" href="#">EVENTS</a>
-            <a class="menu-heading" href="mob-wx-band-cond.php">BAND COND</a>
-            <a class="menu-heading" href="#">CONTACT</a>
+            <a class="menu-heading" href="/index.php">HOME</a>
+            <a class="menu-heading" href="/pages/about.php">ABOUT</a>
+            <a class="menu-heading" href="/pages/nets-repeaters.php">NETS</a>
+            <a class="menu-heading" href="/pages/events.php">CALENDAR / EVENTS</a>
+            <a class="menu-heading" href="/pages/mob-wx-band-cond.php">BAND COND</a>
+            <a class="menu-heading" href="/pages/contact.php">CONTACT</a>
           </div>
 
           <div id="general" class="menu-section">
@@ -34,10 +37,13 @@
               </div>
             </button>
             <div class="dropdown-container">
-              <a href="#">Education</a>
-              <a href="#">Testing</a>
-              <a href="#">Web Links</a>
-              <a href="#">GA ARSA Map</a>
+              <a href="/pages/education.php">Education</a>
+              <a href="/pages/licensing-testing.php">Testing</a>
+              <a href="/pages/web-links.php">Web Links</a>
+              <a
+                href="https://oldtopographer.maps.arcgis.com/apps/webappviewer/index.html?id=63875f87f71c490086212802589956a5"
+                >GA ARSA Map</a
+              >
             </div>
           </div>
 
@@ -49,13 +55,13 @@
               </div>
             </button>
             <div class="dropdown-container">
-              <a href="#">ARES</a>
-              <a href="#">Repeaters</a>
-              <a href="#">Contests</a>
-              <a href="#">Digital Modes</a>
-              <a href="#">Dxing</a>
-              <a href="#">Morse Code / CW</a>
-              <a href="#">Software</a>
+              <a href="/pages/ares.php">ARES</a>
+              <a href="/pages/nets-repeaters.php">Repeaters</a>
+              <a href="/pages/contests.php">Contests</a>
+              <a href="/pages/digital.php">Digital Modes</a>
+              <a href="/pages/dx.php">Dxing</a>
+              <a href="/pages/cw.php">Morse Code / CW</a>
+              <a href="/pages/software.php">Software</a>
             </div>
           </div>
 
@@ -67,12 +73,12 @@
               </div>
             </button>
             <div class="dropdown-container">
-              <a href="#">Newsletters</a>
-              <a href="#">Forms & Docs</a>
-              <a href="#">Club Roster</a>
-              <a href="#">Photos & Videos</a>
-              <a href="#">Pay Club Dues</a>
-              <a href="#">Silent Keys</a>
+              <a href="/pages/newsletters.php">Newsletters</a>
+              <a href="/pages/docs.php">Forms & Docs</a>
+              <a href="/pages/roster.php">Club Roster</a>
+              <a href="/pages/photos.php">Photos & Videos</a>
+              <a href="/pages/dues-donte.php">Pay Club Dues</a>
+              <a href="/pages/silent-keys.php">Silent Keys</a>
             </div>
           </div>
 
@@ -84,30 +90,42 @@
               </div>
             </button>
             <div class="dropdown-container">
-              <a href="#"><i class="fab fa-facebook-square"></i>Facebook</a>
-              <a href="#"><i class="fab fa-youtube"></i>YouTube</a>
-              <a href="#"><i class="fas fa-envelope"></i>Groups.io</a>
+              <a href="https://www.facebook.com/groups/2360561620926754/"
+                ><i class="fab fa-facebook-square"></i>Facebook</a
+              >
+              <a href="https://www.youtube.com/channel/UCaL7UG0gkRJxV7lnTj_P3IQ"
+                ><i class="fab fa-youtube"></i>YouTube</a
+              >
+              <a href="https://silvercometars.groups.io/g/main"
+                ><i class="fas fa-envelope"></i>Groups.io</a
+              >
             </div>
             <div class="mobile-social-media-icons">
               <a
                 href="https://www.facebook.com/groups/2360561620926754/"
                 title="SCARS Facebook Page"
-                ><img src="img/facebook.png" alt="facebook" height="30"
+                ><img src="/img/facebook.png" alt="facebook" height="30"
               /></a>
               <a href="https://www.youtube.com/channel/UCaL7UG0gkRJxV7lnTj_P3IQ"
-                ><img src="img/youtube.png" alt="youtube" height="44"
+                ><img src="/img/youtube.png" alt="youtube" height="44"
               /></a>
               <a href="https://silvercometars.groups.io/g/main"
-                ><img src="img/groupsio.png" alt="groups.io" height="30" style="border-radius: 3px"
+                ><img
+                  src="/img/groupsio.png"
+                  alt="groups.io"
+                  height="30"
+                  style="border-radius: 3px"
               /></a>
             </div>
           </div>
         </div>
-        <a class="key-menu" href="#">HOME</a>
-        <a class="key-menu" href="#">ABOUT</a>
-        <a class="key-menu" href="#">NETS</a>
-        <a class="key-menu" href="#">EVENTS</a>
-        <a class="key-menu" href="#">CONTACT</a>
+
+        <!-- menu items across top of page for large screen -->
+        <a class="key-menu" href="http://www.silvercometars.com/index.php">HOME</a>
+        <a class="key-menu" href="/pages/about.php">ABOUT</a>
+        <a class="key-menu" href="/pages/nets-repeaters.php">NETS</a>
+        <a class="key-menu" href="/pages/events.php">CALENDAR / EVENTS</a>
+        <a class="key-menu" href="/pages/contact.php">CONTACT</a>
       </div>
     </div>
 
@@ -150,7 +168,7 @@
   <div class="header-middle">
     <div id="meatball">
       <a href="http://www.silvercometars.com" class="scars-icon"
-        ><img src="img/scars.gif" alt="scars" title="Silver Comet Amateur Radio Society"
+        ><img src="/img/scars.gif" alt="scars" title="Silver Comet Amateur Radio Society"
       /></a>
     </div>
     <div class="header-title">
