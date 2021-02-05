@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include($_SERVER["DOCUMENT_ROOT"] . "/html-includes/head.html"); ?>
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/newsite/html-includes/head.html"); ?>
 
   <body>
-    <?php include($_SERVER["DOCUMENT_ROOT"] . "/html-includes/header.html"); ?>
+    <?php include($_SERVER["DOCUMENT_ROOT"] . "/newsite/html-includes/header.html"); ?>
 
     <!-- Main body of page -->
     <div class="main">
@@ -12,6 +12,6 @@
       <div class="gcse-searchresults-only"></div>
     </div>
 
-    <?php include($_SERVER["DOCUMENT_ROOT"] . "/html-includes/footer.html"); ?>
+    <?php include($_SERVER["DOCUMENT_ROOT"] . "/newsite/html-includes/footer.html"); ?>
   </body>
 </html>
