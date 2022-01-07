@@ -98,17 +98,13 @@
             <h4>ARRL News Items</h4>
           </div>
           <div class="news-feeds">
-            <script
-              language="JavaScript"
-              src="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=5&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews"
-              type="text/javascript"
-            ></script>
-            <noscript>
-              <a
-                href="http://www.vanderbilt.edu/asset/feed/feed2js.php?src=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;num=5&amp;date=y&amp;tz=+5&amp;targ=y&amp;css=arrlnews&amp;html=y"
-                >View RSS feed</a
-              >
-            </noscript>
+          <script 
+            type="text/javascript" 
+            src="https://www.rssdog.com/index.php?url=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;mode=javascript&amp;showonly=&amp;maxitems=0&amp;showdescs=1&amp;desctrim=0&amp;descmax=0&amp;tabwidth=100%25&amp;excltitle=1&amp;showdate=1&amp;linktarget=_blank&amp;bordercol=%23d4d0c8&amp;headbgcol=%23999999&amp;headtxtcol=%23ffffff&amp;titlebgcol=%23f1eded&amp;titletxtcol=%23000000&amp;itembgcol=%23ffffff&amp;itemtxtcol=%23000000&amp;ctl=0">
+          </script>
+          <noscript> 
+            You apparently do not have JavaScript enabled on your browser or you would be viewing an RSS Feed here
+          </noscript>
           </div>
         </div>
       </div>
