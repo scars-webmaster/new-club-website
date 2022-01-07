@@ -738,7 +738,7 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-rssdog p {
+.rssdog p {
   padding-bottom: 35px;
 }
 
