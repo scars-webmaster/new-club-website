@@ -81,22 +81,6 @@
             <h3>Amateur Radio News</h3>
           </div>
 
-          <div>
-            <a
-              href="https://www.cdc.gov/coronavirus/2019-ncov/index.html?s_cid=bb-coronavirus-2019-ncov-NCIRD"
-              target="_blank"
-              title="image of SARS-CoV-2"
-              ><img
-                class="news-image"
-                src="http://www.cdc.gov/coronavirus/2019-ncov/images/Coronavirus-badge-300.png"
-                style="width: 300px; height: 250px; border: 0px"
-                alt="image of Coronavirus Disease 2019 (COVID-19)"
-              />
-            </a>
-          </div>
-          <div class="article">
-            <h4>ARRL News Items</h4>
-          </div>
           <div class="news-feeds">
           <script 
             type="text/javascript" 

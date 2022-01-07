@@ -739,8 +739,12 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-.news-feeds .rssdog p a {
-  padding: 0.5 0 0.5rem 0 !important;
+.news-feeds .rssdog a {
+  padding: 0.5rem 0 0 0 !important;
+}
+
+.news-feeds .rssdog p {
+  padding: 0 0 0.5rem 0 !important;
 }
 
 /* ||| FOOTER ------------------------------- */
