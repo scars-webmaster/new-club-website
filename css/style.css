@@ -5,10 +5,8 @@ You can find the major sections by searching on |||
 
 @font-face {
   font-family: "ibm3270";
-  src: url("https://www.silvercometars.com/newsite/css/fonts/3270-webfont.woff2")
-      format("woff2"),
-    url("https://www.silvercometars.com/newsite/css/fonts/3270-webfont.woff")
-      format("woff");
+  src: url("/newsite/css/fonts/3270-webfont.woff2") format("woff2"),
+    url("/newsite/css/fonts/3270-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -108,8 +106,8 @@ script {
 /* Overall Header stuff */
 
 .header {
-  background: url("https://www.silvercometars/newsite/img/globalmap.png")
-    no-repeat center center/cover;
+  /*  background: url("https://www.silvercometars/newsite/img/globalmap.png")
+    no-repeat center center/cover; */
   border-radius: 0px;
   margin: 5px 15px 0px 15px;
 }
