@@ -100,7 +100,7 @@
           <div class="news-feeds">
           <script 
             type="text/javascript" 
-            src="https://www.rssdog.com/index.php?url=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;mode=javascript&amp;showonly=&amp;maxitems=0&amp;showdescs=1&amp;desctrim=0&amp;descmax=0&amp;tabwidth=100%25&amp;excltitle=1&amp;showdate=1&amp;linktarget=_blank&amp;bordercol=%23d4d0c8&amp;headbgcol=%23999999&amp;headtxtcol=%23ffffff&amp;titlebgcol=%23f1eded&amp;titletxtcol=%23000000&amp;itembgcol=%23ffffff&amp;itemtxtcol=%23000000&amp;ctl=0">
+            src="https://www.rssdog.com/index.php?url=http%3A%2F%2Fwww.arrl.org%2Fnews%2Frss&amp;mode=javascript&amp;showonly=&amp;maxitems=0&amp;showdescs=1&amp;desctrim=100&amp;descmax=0&amp;tabwidth=100%25&amp;excltitle=1&amp;showdate=1&amp;linktarget=_blank&amp;bordercol=transparent&amp;headbgcol=transparent&amp;headtxtcol=%23ffffff&amp;titlebgcol=transparent&amp;titletxtcol=%23000000&amp;itembgcol=transparent&amp;itemtxtcol=%23000000&amp;ctl=0">
           </script>
           <noscript> 
             You apparently do not have JavaScript enabled on your browser or you would be viewing an RSS Feed here
