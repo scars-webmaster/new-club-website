@@ -603,6 +603,8 @@ div.bcond:hover .bcond-info {
   transform: translate(-50%, 0%);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   background-color: black;
   border: 2px solid #333;
   border-radius: 5px;
@@ -620,6 +622,16 @@ div.bcond:hover .bcond-info {
   margin: 1rem 1.5rem 0 1rem;
 }
 
+.propagation {
+  margin: 0;
+  padding: 0;
+}
+
+.space-weather {
+  margin: 0.4rem;
+  padding: 0;
+}
+
 .bcond-lower {
   display: flex;
   flex-direction: row;
@@ -632,11 +644,6 @@ div.bcond:hover .bcond-info {
   margin: 0;
 }
 
-.propagation {
-  margin: 0;
-  padding: 0;
-}
-
 .solar-data {
   display: flex;
   flex-direction: row;
@@ -645,7 +652,6 @@ div.bcond:hover .bcond-info {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 .x-rays {
   width: 11rem;
   display: flex;
@@ -664,11 +670,6 @@ div.bcond:hover .bcond-info {
   text-align: center;
   border: 1px solid #ccc;
   margin: 0 0 2rem 0;
-}
-
-.space-weather {
-  margin: 0.4rem;
-  padding: 0;
 }
 
 /* ||| MAIN BODY ------------------------------- */
