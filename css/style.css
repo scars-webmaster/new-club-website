@@ -663,6 +663,10 @@ div.bcond:hover .bcond-info {
   font-weight: bold;
 }
 
+.solar-data p {
+  color: #f89807;
+}
+
 .x-rays {
   width: 11rem;
   display: flex;
@@ -671,7 +675,6 @@ div.bcond:hover .bcond-info {
   text-align: center;
   border: 1px solid #ccc;
   margin: 0 0 1rem 0;
-  color: #f89807;
 }
 
 .geomag {
@@ -682,7 +685,6 @@ div.bcond:hover .bcond-info {
   text-align: center;
   border: 1px solid #ccc;
   margin: 0 0 2rem 0;
-  color: #f89807;
 }
 
 /* ||| MAIN BODY ------------------------------- */
