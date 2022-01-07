@@ -474,7 +474,7 @@ button.dropdown-button .button-text .fas {
 
 .header .marquee p,
 .header .marquee a {
-  color: #ccc;
+  color: rgb(231, 247, 9);
   font-weight: 400;
   font-size: 1.4rem;
 }
@@ -739,12 +739,16 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-.news-feeds .rssdog a {
-  padding: 0.5rem 0 0 0 !important;
+.rssdog a {
+  padding: 0.5rem 0 0 0;
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
-.news-feeds .rssdog p {
-  padding: 0 0 0.5rem 0 !important;
+.rssdog p {
+  padding: 0 0 0.5rem 0;
 }
 
 /* ||| FOOTER ------------------------------- */
