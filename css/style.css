@@ -664,7 +664,12 @@ div.bcond:hover .bcond-info {
 }
 
 .solar-data p {
+  padding: 15px 0 0 0;
   color: #f89807;
+}
+
+.solar-data a {
+  padding: 0 0 10px 0;
 }
 
 .x-rays {
