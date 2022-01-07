@@ -620,7 +620,7 @@ div.bcond:hover .bcond-info {
   color: #ccc;
   margin: 0.5rem;
   padding: 0rem;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .bcond-info a {
