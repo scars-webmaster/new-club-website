@@ -613,7 +613,7 @@ div.bcond:hover .bcond-info {
 }
 
 .bcond-info a {
-  padding: 5px;
+  padding: 20px;
 }
 
 .weather-info {
@@ -639,7 +639,7 @@ div.bcond:hover .bcond-info {
 
 .solar-data {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 0;
   margin: 0.6rem;
   font-size: 1.5rem;
