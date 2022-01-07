@@ -465,6 +465,7 @@ button.dropdown-button .button-text .fas {
   -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   transform: translateX(100%);
+
   /* Apply animation to this element */
   -moz-animation: marquee 32s linear infinite;
   -webkit-animation: marquee 32s linear infinite;
@@ -738,8 +739,8 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-.rssdog p {
-  padding-bottom: 35px;
+.rssdog p a {
+  padding: 0.5 0 0.5rem 0 !important;
 }
 
 /* ||| FOOTER ------------------------------- */
