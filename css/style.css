@@ -26,6 +26,14 @@ body {
   background-color: black;
 }
 
+p {
+  padding: 5px 5px 15px 5px;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: black;
+  text-align: left;
+}
+
 button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -742,14 +750,12 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-td.rssdog {
-  padding: 0.5rem 0 0.5rem 0;
-  font-family: "Roboto", sans-serif;
-  font-size: smaller;
-}
-
-p.rssdog {
-  padding: 0 0 0.5rem 0;
+.news-feeds p {
+  padding: 5px 5px 15px 5px;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: black;
+  text-align: left;
 }
 
 /* ||| FOOTER ------------------------------- */
