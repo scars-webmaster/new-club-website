@@ -761,7 +761,7 @@ div.bcond:hover .bcond-info {
 
 /* ||| RSS NEWS FEEDS ----------------------- */
 
-.rssdog a {
+.rssdog b {
   padding: 15px 0px 3px 0px;
   font-weight: 600;
   font-size: 0.9rem;
