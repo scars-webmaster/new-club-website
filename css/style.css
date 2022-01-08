@@ -717,7 +717,7 @@ div.bcond:hover .bcond-info {
   align-items: center;
   background-color: #cfcfcf;
   border-radius: 0px;
-  padding: 20px;
+  padding: 20px 15px 20px 12px;
   margin: 0 15px 15px 0;
   font-family: "Roboto", sans-serif;
   color: black;
@@ -762,9 +762,10 @@ div.bcond:hover .bcond-info {
 /* ||| RSS NEWS FEEDS ----------------------- */
 
 .rssdog a {
-  padding: 0px 0px 5px 0px;
+  padding: 15px 0px 3px 0px;
   font-weight: 600;
   font-size: 0.9rem;
+  line-height: 1.1;
   color: black;
   text-align: left;
 }
@@ -778,7 +779,7 @@ div.bcond:hover .bcond-info {
 }
 
 .rssdog p {
-  padding: 0px 0px 15px 0px;
+  padding: 0px 0px 2px 0px;
   font-weight: 300;
   font-size: 0.8rem;
   color: black;
