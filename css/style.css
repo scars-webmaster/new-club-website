@@ -761,15 +761,23 @@ div.bcond:hover .bcond-info {
 /* ||| RSS NEWS FEEDS ----------------------- */
 
 .rssdog a {
-  padding: 5px 5px 5px 5px;
+  padding: 0px 0px 5px 0px;
   font-weight: 600;
   font-size: 1.1rem;
   color: black;
   text-align: left;
 }
 
+.rssdog i {
+  padding: 0px 0px 0px 0px;
+  font-weight: 300;
+  font-size: 0.7rem;
+  color: black;
+  text-align: left;
+}
+
 .rssdog p {
-  padding: 5px 5px 15px 5px;
+  padding: 0px 0px 15px 0px;
   font-weight: 300;
   font-size: 0.9rem;
   color: black;
