@@ -711,10 +711,7 @@ div.bcond:hover .bcond-info {
 }
 
 .main-body-right {
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 600px;
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px 15px 20px 12px;
