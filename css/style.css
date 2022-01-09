@@ -711,7 +711,7 @@ div.bcond:hover .bcond-info {
 }
 
 .main-body-right {
-  max-width: 600px;
+  max-width: 320px;
   background-color: #cfcfcf;
   border-radius: 0px;
   padding: 20px 15px 20px 12px;
@@ -771,6 +771,7 @@ a.rssdog {
   padding: 0px 0px 0px 0px;
   font-weight: 300;
   font-size: 0.7rem;
+  line-height: 0.5;
   color: black;
   text-align: left;
 }
@@ -779,6 +780,7 @@ a.rssdog {
   padding: 0px 0px 2px 0px;
   font-weight: 300;
   font-size: 0.8rem;
+  line-height: 0.5;
   color: black;
   text-align: left;
 }
