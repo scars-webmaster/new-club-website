@@ -747,7 +747,7 @@ div.bcond:hover .bcond-info {
 }
 
 .article ul {
-  list-style: disc;
+  list-style-type: disc;
   list-style: outside;
   padding: 0 0 0 2rem;
 }
@@ -763,13 +763,13 @@ div.bcond:hover .bcond-info {
   justify-content: space-between;
   margin: 15px 15px 0px 15px;
   padding: 0.5rem;
-  background-color: #222;
   border-radius: 0px;
 }
 
 .article-column {
   width: 45%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
@@ -782,7 +782,7 @@ div.bcond:hover .bcond-info {
 }
 
 .article-column ul {
-  list-style: none;
+  list-style-type: none;
   list-style: outside;
   padding: 0 0 0 2rem;
 }

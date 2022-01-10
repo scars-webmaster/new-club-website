@@ -71,16 +71,17 @@
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <p>
-                Contact:
-                John Reynolds
-                w4txa.john@gmail.com
-                (770)715-9640
+                <p><ul>
+                  <li>Contact:
+                  <li>John Reynolds
+                  <li>w4txa.john@gmail.com
+                  <li>(770)715-9640
                 <br>
-                Test Location:
-                Paulding County Chamber of Commerce
-                455 Jimmy Campbell Pkwy
-                Dallas, GA 30132
+                  <li>Test Location:
+                  <li>Paulding County Chamber of Commerce
+                  <li>455 Jimmy Campbell Pkwy
+                  <li>Dallas, GA 30132
+                </ul>
                 <br>
                 Lower level at the back of the building.
                 </p>
