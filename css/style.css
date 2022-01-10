@@ -759,7 +759,7 @@ div.bcond:hover .bcond-info {
 td.rssdog {
   padding: 15px 0px 3px 0px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1;
   color: black;
   text-align: left;
@@ -768,7 +768,7 @@ td.rssdog {
 .rssdog i {
   padding: 0px 0px 0px 0px;
   font-weight: 300;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.2;
   color: black;
   text-align: left;
@@ -777,7 +777,7 @@ td.rssdog {
 .rssdog p {
   padding: 0px 0px 2px 0px;
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.1;
   color: black;
   text-align: left;
