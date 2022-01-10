@@ -44,8 +44,8 @@
             <div class="article-column-section">
               <div class="article-column">
                 <h4>AMAZON SMILE</h4>
-                <p>
-                AmazonSmile is a simple and automatic way for you to support your favorite charitable organization every time you shop, at no cost to you. Simply click the link below to get started</p>
+                <p>AmazonSmile is a simple and automatic way for you to support your favorite charitable organization every time you shop, at no cost to you.</p>
+                <p>Simply click the link below to get started</p>
                 <p>
                   <a href="https://smile.amazon.com/charity/select?_encoding=UTF8" 
                       target="_blank">
