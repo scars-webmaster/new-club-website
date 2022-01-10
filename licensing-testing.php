@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+a<!DOCTYPE html>
 <html lang="en">
 <?php include 'html-includes/head.html'; ?>
 
@@ -62,7 +62,7 @@
                 </ul>
                 <br><p><strong>Test Location:</strong></p>
                 <ul>
-                  <li>Burnt Hickory Baptist Church
+                  <li><a href="https://goo.gl/maps/eCXiPk7EyXJgcxKT9" target=_blank">Burnt Hickory Baptist Church</a>
                   <li>5145 Due West Rd
                   <li>Powder Springs, GA 30127
                 </ul>
@@ -79,7 +79,6 @@
                 </ul>
                 <br><p><strong>Test Location:</strong></p>
                 <ul>
-                  <li>Paulding County Chamber of Commerce
                   <li><a href="https://goo.gl/maps/uGyjGhHAQKbrbPri7" target="_blank">2735 Hiram Acworth Hwy</a>
                   <li>Dallas, GA 30157
                 </ul>
@@ -87,8 +86,8 @@
               </div>
             </div>
             <br>
-            <p><a href="http://www.arrl.org/getting-licensed" target="_blank">Click here to learn more about getting licensed.</a></p>
-            <p><a href="http://www.arrl.org/what-to-bring-to-an-exam-session" target="_blank">Click here to learn more about what to bring to the exam session.</a></p>
+            <p><a href="http://www.arrl.org/getting-licensed" target="_blank">Click here</a> to learn more about getting licensed.</p>
+            <p><a href="http://www.arrl.org/what-to-bring-to-an-exam-session" target="_blank">Click here</a> to learn more about what to bring to the exam session.</p>
           </div>
         </div>
 

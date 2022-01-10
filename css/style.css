@@ -766,8 +766,8 @@ div.bcond:hover .bcond-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 5px;
-  padding: 0.2rem;
+  margin: 3px;
+  padding: 0.1rem;
   border-radius: 0px;
 }
 
