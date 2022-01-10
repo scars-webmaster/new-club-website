@@ -79,18 +79,21 @@
                 </form>
               </div>
               <div class="article-column">
-                <h4>DUES</h4>
-                <p>Membership dues are $20.00 annually and can be renewed conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box below</p>
-                <p>New Members <a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here</a> for an application (please print and mail in with your dues).</p> 
+                <h4>MEMBERSHIP DUES</h4>
+                <p>Membership dues are $20.00 annually.</p>
+                <p>Dues can be renewed conveniently online using the below PayPal button - please enter your Amateur Radio Call Sign in the box below</p><br>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
-                  <table style="margin-left: 15px;">
-                    <tr><td><input type="hidden" name="on0" value="Annual Membership Dues"><b>2021</b> Annual Membership Dues <u>renewal</u> for: <input type="text" name="os0" maxlength="200"> (Call Sign)</td></tr>
-                    </table> 
-                  <p><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <input type="hidden" name="on0" value="Annual Membership Dues">
+                  <p><h4>Renewal for: </h4></p>
+                  <input type="text" name="os0" maxlength="10"><br>Call Sign<br>
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
-                </form>
+                </form><br>
+                <p><h4>NEW MEMBERS</h4></p> 
+                <p><a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here </a>
+                  for an application (please print and mail in with your dues).</p> 
               </div>
             </div>
           </div>
