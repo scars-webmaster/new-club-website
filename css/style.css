@@ -759,8 +759,10 @@ div.bcond:hover .bcond-info {
 
 .article-column-section {
   width: 90%;
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
+  text-align: left;
+  line-height: 1;
   padding: 0.5rem;
   border-radius: 0px;
 }
@@ -776,7 +778,7 @@ td.rssdog {
   font-weight: 600;
   font-size: 1.1rem;
   line-height: 1;
-  color: black;
+  color: #500e0e;
   text-align: left;
 }
 
