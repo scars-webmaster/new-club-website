@@ -39,13 +39,22 @@
       <!-- Left panel of main body -->
         <div class="main-body-left">
           <div class="article">
-            <h3>Donations and Dues</h3>
-            <h4>SCARS appreciates your support!</h4>
-            <p>
-            AmazonSmile is a simple and automatic way for you to support your favorite charitable organization every time you shop, at no cost to you. Simply click the link below to get started</p>
-            <p><a href="https://smile.amazon.com/charity/select?_encoding=UTF8" target="_blank"><img src="img/amazonsmile.png" alt="Amazon Smile" title="Click here to shop at AmazonSmile and Amazon will make a donation to the Silver Comet Amateur Radio Society"></a></p>
-            </p>
+          <h3>Donations and Dues</h3>
+          <h4>SCARS appreciates your support!</h4>
             <div class="article-column-section">
+              <div class="article-column">
+                <h4>AMAZON SMILE</h4>
+                <p>
+                AmazonSmile is a simple and automatic way for you to support your favorite charitable organization every time you shop, at no cost to you. Simply click the link below to get started</p>
+                <p>
+                  <a href="https://smile.amazon.com/charity/select?_encoding=UTF8" 
+                      target="_blank">
+                      <img class="amazon-img" src="img/amazonsmile.png" 
+                      alt="Amazon Smile" 
+                      title="Click here to shop at AmazonSmile and Amazon will make a donation to the Silver Comet Amateur Radio Society">
+                    </a>
+                  </p>
+                </p>
               <div class="article-column">
                 <h4>DONATE</h4>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -69,7 +78,8 @@
               </div>
               <div class="article-column">
                 <h4>DUES</h4>
-                <b>Membership dues</b> are $20.00 annually and can be <u>renewed</u> conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box bellow. </p><p class="article"><b>New Members</b> <a href="docs/MembershipApplication2020_only.pdf" target="_blank">Click here</a> for an Application (please print and <u>mail</u> in with your dues).</p> 
+                <p>Membership dues are $20.00 annually and can be renewed conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box below</p>
+                <p>New Members<a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here</a> for an application (please print and mail in with your dues).</p> 
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
