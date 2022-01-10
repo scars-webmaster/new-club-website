@@ -800,6 +800,12 @@ div.bcond:hover .bcond-info {
   list-style-type: none;
 }
 
+.article-column img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .news-image {
   margin: 1.2rem 0 2rem 0;
 }

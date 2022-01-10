@@ -49,14 +49,16 @@
                 <p>
                   <a href="https://smile.amazon.com/charity/select?_encoding=UTF8" 
                       target="_blank">
-                      <img class="amazon-img" src="img/amazonsmile.png" 
+                      <img src="img/amazonsmile.png" 
                       alt="Amazon Smile" 
                       title="Click here to shop at AmazonSmile and Amazon will make a donation to the Silver Comet Amateur Radio Society">
                     </a>
                   </p>
                 </p>
+              </div>
               <div class="article-column">
                 <h4>DONATE</h4>
+                <p>SCARS supports a number of community and public service organizations and events.  We appreciate your donation.</p>
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick" />
                   <input type="hidden" name="hosted_button_id" value="MKTA98TUZ5ALW" />
@@ -79,7 +81,7 @@
               <div class="article-column">
                 <h4>DUES</h4>
                 <p>Membership dues are $20.00 annually and can be renewed conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box below</p>
-                <p>New Members<a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here</a> for an application (please print and mail in with your dues).</p> 
+                <p>New Members <a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here</a> for an application (please print and mail in with your dues).</p> 
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                   <input type="hidden" name="cmd" value="_s-xclick">
                   <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
