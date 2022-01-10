@@ -746,7 +746,7 @@ div.bcond:hover .bcond-info {
   text-align: left;
 }
 
-.artile ul {
+.article ul {
   list-style: circle;
 }
 
@@ -770,8 +770,8 @@ td.rssdog {
   text-align: left;
 }
 
-.rssdog i {
-  padding: 0px 0px 0px 0px;
+td.rssdog i {
+  padding: 0px 0px 5px 0px;
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.2;
@@ -779,7 +779,7 @@ td.rssdog {
   text-align: left;
 }
 
-.rssdog p {
+td.rssdog p {
   padding: 0px 0px 2px 0px;
   font-weight: 300;
   font-size: 1rem;
