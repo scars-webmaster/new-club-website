@@ -413,7 +413,7 @@ button.dropdown-button .button-text .fas {
 /* Meatball (SCARS Icon/logo), Title and SubTitle in header */
 
 .header-middle {
-  margin: -4rem 0 0 -2rem;
+  margin: -4.5rem 0 0 -2.5rem;
   display: flex;
   justify-content: center;
 }
@@ -769,7 +769,7 @@ td.rssdog {
   padding: 0px 0px 0px 0px;
   font-weight: 300;
   font-size: 0.7rem;
-  line-height: 1;
+  line-height: 1.2;
   color: black;
   text-align: left;
 }
@@ -778,7 +778,7 @@ td.rssdog {
   padding: 0px 0px 2px 0px;
   font-weight: 300;
   font-size: 0.8rem;
-  line-height: 1;
+  line-height: 1.1;
   color: black;
   text-align: left;
 }
