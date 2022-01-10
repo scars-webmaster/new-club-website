@@ -748,8 +748,8 @@ div.bcond:hover .bcond-info {
 
 .article ul {
   list-style: disc;
-  list-style: inside;
-  padding: 0 0 0 1rem;
+  list-style: outside;
+  padding: 0 0 0 1.2rem;
 }
 
 .article a {
@@ -772,7 +772,7 @@ td.rssdog {
   text-align: left;
 }
 
-td.rssdog i {
+.rssdog i {
   padding: 0px 0px 5px 0px;
   font-weight: 300;
   font-size: 0.9rem;
@@ -781,7 +781,7 @@ td.rssdog i {
   text-align: left;
 }
 
-td.rssdog p {
+.rssdog p {
   padding: 0px 0px 2px 0px;
   font-weight: 300;
   font-size: 1rem;
