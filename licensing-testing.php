@@ -11,6 +11,7 @@
       <!-- Main page content title (left side)-->
       <div class="main-body-title">
         <div class="main-heading">
+          <br>
           <h1>QRV - LICENSING AND TESTING</h1>
         </div>
 
@@ -47,6 +48,7 @@
               <li>Phones must be turned off. iPhones, iPads, Androids, smartphones, Blackberry devices and all similar electronic devices with a calculator capability, may NOT be used.</li>
             </ul>
           </div>
+          <br>
           <div class="article">
             <div class="article-column-section">
               <div class="article-column">
