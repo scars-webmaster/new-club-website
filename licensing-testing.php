@@ -32,7 +32,7 @@
           <div class="article">
           <h3>Earn or Upgrade your Amateur Radio License</h3>
           <p>We offer Amateur Radio License examination's monthly for anyone wishing to obtain an Amateur Radio License or to upgrade their current license. See below for dates and times.</p>
-          <p><strong> MUST bring the following:</strong></p>
+          <p><strong>You MUST bring the following:</strong></p>
             <ul>
                 <li>$15 cash EXACT CHANGE</li>
                 <li>One legal photo ID (identification): State Driver’s License or other State issued ID, Government issued Passport, or a Military or Law Enforcement Officer Photo ID card</li>
@@ -40,7 +40,7 @@
                 <li>A printed copy of your Amateur Radio license or any Certificates of Successful Completion of Examination (CSCE) you may hold from previous exam sessions</li>
                 <li>Optional: A calculator with the memory erased and formulas cleared is allowed</li>
             </ul>
-            <p>Notes:</p>
+            <br><p><strong>Notes:</strong></p>
             <ul>
               <li>We have see great results from HamTestOnline - https://www.hamradiolicenseexam.com/</li>
               <li>We recommend you take the test for the next level (General or Extra) after you pass a test - study ahead if you can.</li>

@@ -749,6 +749,7 @@ div.bcond:hover .bcond-info {
 .article ul {
   list-style: disc;
   list-style: inside;
+  padding: 0 0 0 1rem;
 }
 
 .article a {
