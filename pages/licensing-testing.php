@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include '/newsite/html-includes/head.html'; ?>
+<?php include 'https://www.silvercometars.com/newsite/html-includes/head.html'; ?>
 
   <body>
-    <?php include '/newsite/html-includes/header.html'; ?>
+    <?php include 'https://www.silvercometars.com/newsite/html-includes/header.html'; ?>
 
     <!-- Main body of page -->
     <div class="main">
@@ -19,7 +19,7 @@
           <div class="heading-buttons">
            
             <!-- WX and Band Conditions Panel -->
-            <?php include '/newsite/html-includes/wx-band-cond.html'; ?>
+            <?php include 'https://www.silvercometars.com/newsite/html-includes/wx-band-cond.html'; ?>
           </div>
         </div>
       </div>
@@ -30,7 +30,8 @@
       <!-- Left panel of main body -->
         <div class="main-body-left">
           <div class="article">
-            <p>
+          <h3>Earn or Upgrade your Amateur Radio License</h3>
+          <p>
             We offer Amateur Radio License examination's monthly for anyone wishing to obtain an Amateur Radio License or to upgrade their current license. See below for dates and times.
             You MUST bring the following:
               <ul>
@@ -68,6 +69,6 @@
       </div>
     </div>
 
-    <?php include 'html-includes/footer.html'; ?>
+    <?php include 'https://www.silvercometars.com/newsite/html-includes/footer.html'; ?>
   </body>
 </html>
