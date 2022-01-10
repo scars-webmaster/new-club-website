@@ -788,7 +788,7 @@ div.bcond:hover .bcond-info {
 .article-column h4 {
   text-align: left;
   line-height: 1.4rem;
-  padding: 10px 0 0 0;
+  padding: 10px 0 5px 0;
 }
 
 .article-column p {

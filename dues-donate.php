@@ -99,7 +99,7 @@
                 </div>
                 <p><h4>NEW MEMBERS</h4></p> 
                 <p><a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here </a>
-                  for an application (please print and mail in with your dues).</p> 
+                  for an application (please print and mail to the address on the form with your dues).</p><br> 
               </div>
             </div>
           </div>
