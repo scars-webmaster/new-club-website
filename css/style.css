@@ -787,12 +787,12 @@ div.bcond:hover .bcond-info {
 
 .article-column h4 {
   text-align: left;
-  line-height: 1rem;
+  line-height: 1.4rem;
   padding: 10px;
 }
 
 .article-column p {
-  line-height: 1.1rem;
+  line-height: 1.2rem;
   padding: 2px 5px 2px 5px;
 }
 
@@ -804,6 +804,10 @@ div.bcond:hover .bcond-info {
   height: auto;
   display: block;
   max-width: 80%;
+}
+
+.paypal-section {
+  padding: 5px 10px 5px 15px;
 }
 
 .news-image {

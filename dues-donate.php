@@ -58,39 +58,45 @@
               </div>
               <div class="article-column">
                 <h4>DONATE</h4>
-                <p>SCARS supports a number of community and public service organizations and events.  We appreciate your donation.</p>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input type="hidden" name="hosted_button_id" value="MKTA98TUZ5ALW" />
-                  <input
-                    type="image"
-                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                    border="0"
-                    name="submit"
-                    alt="PayPal - The safer, easier way to pay online!"
-                  />
-                  <img
-                    alt=""
-                    border="0"
-                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                    >
-                </form>
+                <p>SCARS supports a number of community and public service organizations and events.</p>
+                <p>We appreciate your donation.</p><br>
+                <div class="paypal-section">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick" />
+                    <input type="hidden" name="hosted_button_id" value="MKTA98TUZ5ALW" />
+                    <input
+                      type="image"
+                      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                      border="0"
+                      name="submit"
+                      alt="PayPal - The safer, easier way to pay online!"
+                    />
+                    <img
+                      alt=""
+                      border="0"
+                      src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                      width="1"
+                      height="1"
+                      >
+                  </form>
+                </div>
               </div>
               <div class="article-column">
                 <h4>MEMBERSHIP DUES</h4>
                 <p>Membership dues are $20.00 annually.</p>
-                <p>Dues can be renewed conveniently online using the below PayPal button - please enter your Amateur Radio Call Sign in the box below</p><br>
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
-                  <input type="hidden" name="on0" value="Annual Membership Dues">
-                  <p><h4>Renewal for: </h4></p>
-                  <input type="text" name="os0" maxlength="10"><br>Call Sign<br>
-                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
-                </form><br>
+                <p>Dues can be renewed conveniently online using the below PayPal button - 
+                  please enter your Amateur Radio Call Sign in the box below</p>
+                <div class="paypal-section">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
+                    <input type="hidden" name="on0" value="Annual Membership Dues">
+                    <p><h4>Renewal for: </h4></p>
+                    <input type="text" name="os0" size="10" maxlength="10" minlength="4"> Call Sign<br>
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
+                  </form><br>
+                </div>
                 <p><h4>NEW MEMBERS</h4></p> 
                 <p><a href="docs/MembershipApplication2020_only.pdf" target="_blank">click here </a>
                   for an application (please print and mail in with your dues).</p> 
