@@ -52,16 +52,18 @@
               <div class="article-column">
                 <h4>First Thursday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <br><p>
-                Contact:
-                Steve Walls
-                swalls46@att.net (preferred)
-                (404)697-9849
-                <br>
-                Test Location:
-                Burnt Hickory Baptist Church
-                5145 Due West Rd
-                Powder Springs, GA 30127
+                <p><ul>
+                  <li>Contact:
+                  <li>Steve Walls
+                  <li>swalls46@att.net (preferred)
+                  <li>(404)697-9849
+                </ul>
+                <br><ul>
+                  <li>Test Location:
+                  <li>Burnt Hickory Baptist Church
+                  <li>5145 Due West Rd
+                  <li>Powder Springs, GA 30127
+                </ul>
                 <br>
                 Come in the main door between the two playgrounds and look for the sign with the room number.
                 </p>
@@ -69,7 +71,7 @@
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <br><p>
+                <p>
                 Contact:
                 John Reynolds
                 w4txa.john@gmail.com
