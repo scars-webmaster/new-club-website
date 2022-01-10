@@ -53,7 +53,7 @@
             <div class="article-column-section">
               <div class="article-column">
                 <h4>First Thursday of every month</h4>
-                <p>(typically - please email to confirm dates and times)</p>
+                <p><h5>(typically - please email to confirm dates and times)</h5></p>
                 <br><p><strong>Contact:</strong></p>
                 <ul>
                   <li>Steve Walls
@@ -70,7 +70,7 @@
               </div>
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
-                <p>(typically - please email to confirm dates and times)</p>
+                <p><h5>(typically - please email to confirm dates and times)</h5></p>
                 <br><p><strong>Contact:</strong></p>
                 <ul>
                   <li>John Reynolds
@@ -86,6 +86,7 @@
                 <br><p>Lower level at the back of the building.</p>
               </div>
             </div>
+            <br>
             <p>Click here to learn more about getting licensed.</p>
             <p>Click here to learn more about what to bring to the exam session.</p>
           </div>

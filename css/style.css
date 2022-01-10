@@ -86,6 +86,11 @@ h4 {
   font-size: 1.2rem;
 }
 
+h5 {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -783,12 +788,12 @@ div.bcond:hover .bcond-info {
 .article-column h4 {
   text-align: left;
   line-height: 1rem;
-  padding: 0 5px 0 5px;
+  padding: 2px 5px 2px 5px;
 }
 
 .article-column p {
   line-height: 1rem;
-  padding: 0 5px 0 5px;
+  padding: 2px 5px 2px 5px;
 }
 
 .article .article-column ul {
