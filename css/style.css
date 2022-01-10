@@ -777,16 +777,18 @@ div.bcond:hover .bcond-info {
   padding: 5px;
   margin: 0;
   border-color: black;
-  border-width: 1px;
+  border-width: 3px;
 }
 
 .article-column h4 {
   text-align: left;
+  line-height: 1rem;
+  padding: 0 5px 0 5px;
 }
 
 .article-column p {
   line-height: 1rem;
-  padding: 5px;
+  padding: 0 5px 0 5px;
 }
 
 .article .article-column ul {
