@@ -801,9 +801,9 @@ div.bcond:hover .bcond-info {
 }
 
 .article-column img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: auto;
+  display: block;
+  max-width: 80%;
 }
 
 .news-image {
