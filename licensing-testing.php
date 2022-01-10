@@ -52,39 +52,36 @@
               <div class="article-column">
                 <h4>First Thursday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <p><ul>
-                  <li>Contact:
+                <p><strong>Contact:</strong></p>
+                <ul>
                   <li>Steve Walls
                   <li>swalls46@att.net (preferred)
                   <li>(404)697-9849
                 </ul>
-                <br><ul>
-                  <li>Test Location:
+                <p><strong>Test Location:</strong></p>
+                <ul>
                   <li>Burnt Hickory Baptist Church
                   <li>5145 Due West Rd
                   <li>Powder Springs, GA 30127
                 </ul>
-                <br>
-                Come in the main door between the two playgrounds and look for the sign with the room number.
-                </p>
+                <p>Come in the main door between the two playgrounds and look for the sign with the room number.</p>
               </div>
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <p><ul>
-                  <li>Contact:
+                <p><strong>Contact:</strong></p>
+                <ul>
                   <li>John Reynolds
                   <li>w4txa.john@gmail.com
                   <li>(770)715-9640
-                <br>
-                  <li>Test Location:
+                </ul>
+                <p><strong>Test Location:</strong></p>
+                <ul>
                   <li>Paulding County Chamber of Commerce
                   <li>455 Jimmy Campbell Pkwy
                   <li>Dallas, GA 30132
                 </ul>
-                <br>
-                Lower level at the back of the building.
-                </p>
+                <p>Lower level at the back of the building.</p>
               </div>
             </div>
             <p>Click here to learn more about getting licensed.</p>

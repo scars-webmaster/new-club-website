@@ -762,7 +762,7 @@ div.bcond:hover .bcond-info {
   flex-direction: row;
   justify-content: space-between;
   margin: 15px 15px 0px 15px;
-  padding: 0.5rem;
+  padding: 0.2rem;
   border-radius: 0px;
 }
 
@@ -773,18 +773,16 @@ div.bcond:hover .bcond-info {
   justify-content: space-between;
   align-content: flex-start;
   align-items: flex-start;
-  border-width: 1px;
-  padding: 20px;
+  background-color: white;
+  padding: 5px;
 }
 
 .article-column h4 {
   text-align: left;
 }
 
-.article-column ul {
+.article .article-column ul {
   list-style-type: none;
-  list-style: outside;
-  padding: 0 0 0 2rem;
 }
 
 .news-image {
