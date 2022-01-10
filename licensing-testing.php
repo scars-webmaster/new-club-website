@@ -49,7 +49,7 @@
           </div>
           <div class="article">
             <div class="article-column-section">
-              <div>
+              <div class="article-column">
                 <h4>First Thursday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
                 <br><p>
@@ -66,7 +66,7 @@
                 Come in the main door between the two playgrounds and look for the sign with the room number.
                 </p>
               </div>
-              <div>
+              <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
                 <br><p>
