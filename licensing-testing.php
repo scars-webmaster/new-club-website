@@ -66,7 +66,7 @@
                   <li>5145 Due West Rd
                   <li>Powder Springs, GA 30127
                 </ul>
-                <br><p>Come in the main door between the two playgrounds and look for the sign with the room number.</p>
+                <br><p>Come in the main door between the two playgrounds and look for the sign with the room number</p>
               </div>
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
@@ -80,15 +80,15 @@
                 <br><p><strong>Test Location:</strong></p>
                 <ul>
                   <li>Paulding County Chamber of Commerce
-                  <li>455 Jimmy Campbell Pkwy
-                  <li>Dallas, GA 30132
+                  <li><a href="https://goo.gl/maps/uGyjGhHAQKbrbPri7" target="_blank">2735 Hiram Acworth Hwy</a>
+                  <li>Dallas, GA 30157
                 </ul>
-                <br><p>Lower level at the back of the building.</p>
+                <br><p>Park in driveway</p>
               </div>
             </div>
             <br>
-            <p>Click here to learn more about getting licensed.</p>
-            <p>Click here to learn more about what to bring to the exam session.</p>
+            <p><a href="http://www.arrl.org/getting-licensed" target="_blank">Click here to learn more about getting licensed.</a></p>
+            <p><a href="http://www.arrl.org/what-to-bring-to-an-exam-session" target="_blank">Click here to learn more about what to bring to the exam session.</a></p>
           </div>
         </div>
 
