@@ -770,7 +770,7 @@ div.bcond:hover .bcond-info {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
   background-color: white;
@@ -784,6 +784,7 @@ div.bcond:hover .bcond-info {
 
 .article-column p {
   line-height: 1rem;
+  padding: 5px;
 }
 
 .article .article-column ul {

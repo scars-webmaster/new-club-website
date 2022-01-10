@@ -60,13 +60,13 @@
                   <li>swalls46@att.net (preferred)
                   <li>(404)697-9849
                 </ul>
-                <p><strong>Test Location:</strong></p>
+                <br><p><strong>Test Location:</strong></p>
                 <ul>
                   <li>Burnt Hickory Baptist Church
                   <li>5145 Due West Rd
                   <li>Powder Springs, GA 30127
                 </ul>
-                <p>Come in the main door between the two playgrounds and look for the sign with the room number.</p>
+                <br><p>Come in the main door between the two playgrounds and look for the sign with the room number.</p>
               </div>
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
@@ -77,13 +77,13 @@
                   <li>w4txa.john@gmail.com
                   <li>(770)715-9640
                 </ul>
-                <p><strong>Test Location:</strong></p>
+                <br><p><strong>Test Location:</strong></p>
                 <ul>
                   <li>Paulding County Chamber of Commerce
                   <li>455 Jimmy Campbell Pkwy
                   <li>Dallas, GA 30132
                 </ul>
-                <p>Lower level at the back of the building.</p>
+                <br><p>Lower level at the back of the building.</p>
               </div>
             </div>
             <p>Click here to learn more about getting licensed.</p>
