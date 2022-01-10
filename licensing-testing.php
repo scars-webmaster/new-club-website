@@ -47,6 +47,46 @@
               <li>Phones must be turned off. iPhones, iPads, Androids, smartphones, Blackberry devices and all similar electronic devices with a calculator capability, may NOT be used.</li>
             </ul>
           </div>
+          <div class="article">
+            <div class="article-column-section">
+              <div>
+                <h4>First Thursday of every month</h4>
+                <p>(typically - please email to confirm dates and times)</p>
+                <br><p>
+                Contact:
+                Steve Walls
+                swalls46@att.net (preferred)
+                (404)697-9849
+                <br>
+                Test Location:
+                Burnt Hickory Baptist Church
+                5145 Due West Rd
+                Powder Springs, GA 30127
+                <br>
+                Come in the main door between the two playgrounds and look for the sign with the room number.
+                </p>
+              </div>
+              <div>
+                <h4>Second Tuesday of every month</h4>
+                <p>(typically - please email to confirm dates and times)</p>
+                <br><p>
+                Contact:
+                John Reynolds
+                w4txa.john@gmail.com
+                (770)715-9640
+                <br>
+                Test Location:
+                Paulding County Chamber of Commerce
+                455 Jimmy Campbell Pkwy
+                Dallas, GA 30132
+                <br>
+                Lower level at the back of the building.
+                </p>
+              </div>
+            </div>
+            <p>Click here to learn more about getting licensed.</p>
+            <p>Click here to learn more about what to bring to the exam session.</p>
+          </div>
         </div>
 
         <!-- Main body content right panel (news, etc) -->

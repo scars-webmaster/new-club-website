@@ -28,7 +28,7 @@ body {
 
 p {
   padding: 5px 5px 15px 5px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.1rem;
   color: black;
   text-align: left;
@@ -757,6 +757,14 @@ div.bcond:hover .bcond-info {
   color: black;
 }
 
+.article-column-section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-radius: 0px;
+}
+
 .news-image {
   margin: 1.2rem 0 2rem 0;
 }
@@ -773,7 +781,7 @@ td.rssdog {
 }
 
 .rssdog i {
-  padding: 0px 0px 5px 0px;
+  padding: 0px 0px 7px 0px;
   font-weight: 300;
   font-size: 0.9rem;
   line-height: 1.2;
