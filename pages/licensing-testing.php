@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'html-includes/head.html'; ?>
+<?php include '/newsite/html-includes/head.html'; ?>
 
   <body>
-    <?php include 'html-includes/header.html'; ?>
+    <?php include '/newsite/html-includes/header.html'; ?>
 
     <!-- Main body of page -->
     <div class="main">
@@ -19,7 +19,7 @@
           <div class="heading-buttons">
            
             <!-- WX and Band Conditions Panel -->
-            <?php include 'html-includes/wx-band-cond.html'; ?>
+            <?php include '/newsite/html-includes/wx-band-cond.html'; ?>
           </div>
         </div>
       </div>
