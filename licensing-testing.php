@@ -32,7 +32,7 @@
           <div class="article">
           <h3>Earn or Upgrade your Amateur Radio License</h3>
           <p>We offer Amateur Radio License examination's monthly for anyone wishing to obtain an Amateur Radio License or to upgrade their current license. See below for dates and times.</p>
-          <p>You MUST bring the following:</p>
+          <p><strong> MUST bring the following:</strong></p>
             <ul>
                 <li>$15 cash EXACT CHANGE</li>
                 <li>One legal photo ID (identification): State Driver’s License or other State issued ID, Government issued Passport, or a Military or Law Enforcement Officer Photo ID card</li>

@@ -747,7 +747,8 @@ div.bcond:hover .bcond-info {
 }
 
 .article ul {
-  list-style: circle;
+  list-style: disc;
+  list-style: inside;
 }
 
 .article a {
