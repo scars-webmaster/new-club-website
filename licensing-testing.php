@@ -54,7 +54,7 @@
               <div class="article-column">
                 <h4>First Thursday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <p><strong>Contact:</strong></p>
+                <br><p><strong>Contact:</strong></p>
                 <ul>
                   <li>Steve Walls
                   <li>swalls46@att.net (preferred)
@@ -71,7 +71,7 @@
               <div class="article-column">
                 <h4>Second Tuesday of every month</h4>
                 <p>(typically - please email to confirm dates and times)</p>
-                <p><strong>Contact:</strong></p>
+                <br><p><strong>Contact:</strong></p>
                 <ul>
                   <li>John Reynolds
                   <li>w4txa.john@gmail.com
