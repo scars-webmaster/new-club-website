@@ -11,7 +11,7 @@
       <!-- Main page content title (left side)-->
       <div class="main-body-title">
         <div class="main-heading">
-          <h1>QRA - SCARS</h1>
+          <h1>QRV - SCARS</h1>
         </div>
 
         <!-- Other content of body content heading (right side) -->
@@ -39,40 +39,48 @@
       <!-- Left panel of main body -->
         <div class="main-body-left">
           <div class="article">
-            <h3>QTH - DALLAS, GA</h3>
-            <h4>The home of the Silver Comet Amateur Radio Society, Inc.</h4>
+            <h3>Donations and Dues</h3>
+            <h4>SCARS appreciates your support!</h4>
             <p>
             AmazonSmile is a simple and automatic way for you to support your favorite charitable organization every time you shop, at no cost to you. Simply click the link below to get started</p>
-            <p style="text-align: center;"><a href="https://smile.amazon.com/ch/20-0665957" target="_blank"><img src="images/AmazonSmile.png" width="65%"style="padding:1em" alt="Amazon Smile" title="Click here to shop at AmazonSmile and Amazon will make a donation to the Silver Comet Amateur Radio Society." border="0"></a></p>
+            <p><a href="https://smile.amazon.com/charity/select?_encoding=UTF8" target="_blank"><img src="img/amazonsmile.png" alt="Amazon Smile" title="Click here to shop at AmazonSmile and Amazon will make a donation to the Silver Comet Amateur Radio Society"></a></p>
             </p>
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick" />
-              <input type="hidden" name="hosted_button_id" value="MKTA98TUZ5ALW" />
-              <input
-                type="image"
-                src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                border="0"
-                name="submit"
-                alt="PayPal - The safer, easier way to pay online!"
-              />
-              <img
-                alt=""
-                border="0"
-                src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                width="1"
-                height="1"
-                >
-            </form>
-            <b>Membership dues</b> are $20.00 annually and can be <u>renewed</u> conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box bellow. </p><p class="article"><b>New Members</b> <a href="docs/MembershipApplication2020_only.pdf" target="_blank">Click here</a> for an Application (please print and <u>mail</u> in with your dues).</p> 
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
-              <table style="margin-left: 15px;">
-                <tr><td><input type="hidden" name="on0" value="Annual Membership Dues"><b>2021</b> Annual Membership Dues <u>renewal</u> for: <input type="text" name="os0" maxlength="200"> (Call Sign)</td></tr>
-                </table> 
-              <p><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
-            </form>
+            <div class="article-column-section">
+              <div class="article-column">
+                <h4>DONATE</h4>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick" />
+                  <input type="hidden" name="hosted_button_id" value="MKTA98TUZ5ALW" />
+                  <input
+                    type="image"
+                    src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                    border="0"
+                    name="submit"
+                    alt="PayPal - The safer, easier way to pay online!"
+                  />
+                  <img
+                    alt=""
+                    border="0"
+                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+                    width="1"
+                    height="1"
+                    >
+                </form>
+              </div>
+              <div class="article-column">
+                <h4>DUES</h4>
+                <b>Membership dues</b> are $20.00 annually and can be <u>renewed</u> conveniently online using the following PayPal button. Please enter your Amateur Radio Call Sign in the box bellow. </p><p class="article"><b>New Members</b> <a href="docs/MembershipApplication2020_only.pdf" target="_blank">Click here</a> for an Application (please print and <u>mail</u> in with your dues).</p> 
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="AHB3DQH7A94RN">
+                  <table style="margin-left: 15px;">
+                    <tr><td><input type="hidden" name="on0" value="Annual Membership Dues"><b>2021</b> Annual Membership Dues <u>renewal</u> for: <input type="text" name="os0" maxlength="200"> (Call Sign)</td></tr>
+                    </table> 
+                  <p><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></p>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
 
