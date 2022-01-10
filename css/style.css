@@ -413,7 +413,7 @@ button.dropdown-button .button-text .fas {
 /* Meatball (SCARS Icon/logo), Title and SubTitle in header */
 
 .header-middle {
-  margin: -4.5rem 0 0 -2.5rem;
+  margin: -4.5rem 0 -1rem -2.5rem;
   display: flex;
   justify-content: center;
 }

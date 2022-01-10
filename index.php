@@ -18,7 +18,7 @@
         <div class="other-content">
           <div class="heading-buttons">
             <!-- Special button for new hams - licensing/testing -->
-            <a class="newhambtn" href="/newsite/pages/licensing-testing.php"
+            <a class="newhambtn" href="/newsite/licensing-testing.php"
               ><img
                 src='/newsite/img/green-check.png'
                 alt="Green Check"
