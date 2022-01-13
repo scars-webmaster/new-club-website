@@ -3,6 +3,18 @@ This file is organized pretty much as the page flows
 You can find the major sections by searching on |||
 */
 
+/* Font downloaded from FontsForWeb.com */
+@font-face {
+  font-family: "MTCORSVA";
+  src: url("/newsite/css/fonts/MTCORSVA.eot");
+  src: local("MTCORSVA"), url("/newsite/css/fonts/MTCORSVA.woff") format("woff"),
+    url("/newsite/css/fonts/MTCORSVA.ttf") format("truetype");
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_6771">Text with this font applied</p> */
+.mt-corsiva {
+  font-family: "MTCORSVA" !important;
+}
+
 @font-face {
   font-family: "ibm3270";
   src: url("/newsite/css/fonts/3270-webfont.woff2") format("woff2"),
@@ -436,7 +448,8 @@ button.dropdown-button .button-text .fas {
 }
 
 .header-title .club-title {
-  font-family: ibm3270, monospace;
+  /*  font-family: ibm3270, monospace; */
+  font-family: "MTCORSVA" !important;
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1;
