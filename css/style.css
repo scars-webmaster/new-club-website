@@ -450,8 +450,8 @@ button.dropdown-button .button-text .fas {
 .header-title .club-title {
   /*  font-family: ibm3270, monospace; */
   font-family: "MTCORSVA" !important;
-  font-weight: bold;
-  font-size: 3.5rem;
+  font-weight: normal;
+  font-size: 4rem;
   line-height: 1;
   padding: 5px 0 0 0;
   color: white;
